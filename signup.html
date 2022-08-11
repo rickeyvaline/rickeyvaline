@@ -1,0 +1,1473 @@
+
+<!-- Copyright (C) Microsoft Corporation. All rights reserved. -->
+
+<!DOCTYPE html>
+<html lang="en" xml:lang="en" class="m_ul" dir="ltr" style="">
+  <head>
+    <link rel="preconnect" href="https://acctcdn.msauth.net" crossorigin>
+<link rel="preconnect" href="https://acctcdn.msauth.net" crossorigin>
+<meta http-equiv="x-dns-prefetch-control" content="on">
+<link rel="dns-prefetch" href="//acctcdn.msauth.net">
+<link rel="dns-prefetch" href="//acctcdn.msftauth.net">
+<link rel="dns-prefetch" href="//acctcdnmsftuswe2.azureedge.net">
+<link rel="dns-prefetch" href="//acctcdnvzeuno.azureedge.net">
+
+    <title>Microsoft account</title>
+    <meta http-equiv="Content-Type" content="text/html;charset=utf-8"/><meta name="referrer" content="origin"/><meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=2.0, minimum-scale=1.0, user-scalable=yes"/><meta name="format-detection" content="telephone=no"/>
+    <link rel="icon" href="https://acctcdn.msauth.net/images/favicon.ico?v=2" type="image/x-icon" />
+    
+
+    
+    <style type="text/css">body{display:none;}</style>
+    <script type="text/javascript">//<![CDATA[
+!function(){var t,o=window;if(o.self!=o.top){try{o.top.location.replace(o.location.href)}catch(e){try{o.top.location=o.location}catch(e){}}t='<plaintext style="display:none">'}else{t=unescape("%3C%73")+'tyle type="text/css">body{display:block !important;}</style>'}document.write(t)}();
+
+//]]></script>
+    <script type="text/javascript">//<![CDATA[
+!function(){function e(){return"undefined"==typeof t.jQueryShim}var t=window,r=t.$PageHelper={};r.visible=function(r){return e()?jQuery(r).is(":visible"):(r instanceof t.jQueryShim&&(r=r[0]),r?null===r.offsetParent?!1:!0:!1)},r.proxy=function(t,r){if(e()){return jQuery.proxy(t,r)}var n=[].slice.call(arguments,2);return function(){return t.apply(r||this,n.concat([].slice.call(arguments)))}},r.parseJSON=function(t){return e()?jQuery.parseJSON(t):JSON.parse(t)},r.isArray=function(t){return e()?jQuery.isArray(t):"[object Array]"===Object.prototype.toString.call(t)
+},r.indexOf=function(t,r){if(e()){return jQuery.inArray(t,r)}if(r){if("function"==typeof r.indexOf){return r.indexOf(t)}for(var n=0;n<r.length;n++){if(r[n]===t){return n}}}return-1},r.each=function(t,n){if(e()){return jQuery.each(t,n)}if(r.isArray(t)){for(var o=0;o<t.length;o++){if(n(o,t[o])===!1){return}}}else{for(var a in t){t.hasOwnProperty(a)&&n(a,t[a])}}},r.merge=function(t,r){if(e()){return jQuery.merge(t,r)}var n=r.length,o=t.length,a=0;if("number"==typeof n){for(;n>a;a++){t[o]=r[a],t.elems&&(t.elems[o]=r[a]),o++
+}}else{for(;void 0!==r[a];){t[o]=r[a],t.elems&&(t.elems[o]=r[a]),o++,a++}}return t.length=o,t},r.map=function(t,n){if(e()){return jQuery.map(t,n)}var o,a=0,i=t.length,u=r.isArray(t),s=[];if(u){for(;i>a;a++){o=n(t[a],a),null!=o&&(s[s.length]=o)}}else{for(a in t){o=n(t[a],a),null!=o&&(s[s.length]=o)}}return s},r.grep=function(e,t,r){var n,o=[],a=0,i=e.length;for(r=!!r;i>a;a++){n=!!t(e[a],a),r!==n&&o.push(e[a])}return o},r.extend=function(){if(e()){return jQuery.extend(arguments[0],arguments[1],arguments[2])}var t=!1,n=0;
+"boolean"==typeof arguments[0]&&(t=arguments[0],n++);var o=arguments[n]||{};n++;for(var a=function(e){for(var n in e){e.hasOwnProperty(n)&&(o[n]=t&&"[object Object]"===Object.prototype.toString.call(e[n])?r.extend(!0,o[n],e[n]):e[n])}};n<arguments.length;n++){a(arguments[n])}return o},r.makeArray=function(t){if(e()){return jQuery.makeArray(t)}for(var r=[],n=0;n<t.length;n++){r=t[n]}return r},r.trim=function(t){return e()?jQuery.trim(t):"function"==typeof String.prototype.trim?t.trim():t.replace(/^\s+|\s+$/g,"")
+},r.hasFocus=function(r){if(e()){var n;return n=r instanceof t.jQuery?r:jQuery(r),n.is(":focus")}return document.hasFocus()&&r===document.activeElement},r.onLoad=function(t){e()?jQuery(t):"complete"===document.readyState||"loading"!==document.readyState&&!document.documentElement.doScroll?setTimeout(function(){t()},0):document.addEventListener&&!document.documentElement.doScroll?document.addEventListener("DOMContentLoaded",t):document.attachEvent("onreadystatechange",function(){"complete"===document.readyState&&(document.detachEvent("onreadystatechange",arguments.callee),t())
+})},r.deferred=function(){if(e()){return jQuery.Deferred()}var t,r,n="pending";Promise.prototype.always=Promise.prototype["finally"];var o=new Promise(function(e,n){t=e,r=n});return{"promise":function(){return o},"state":function(){return n},"resolve":function(){return n="resolved",t.apply(this,arguments)},"reject":function(){return n="rejected",r.apply(this,arguments)}}},r.when=function(t){return e()?jQuery.when.apply(jQuery,t):Promise.all(t)},r.ajax=function(t,r){if(e()){return jQuery.ajax(t,r).then(function(e,t,r){return{"rsp":e,"textStatus":t,"xhr":r}
+},function(e,t,r){return{"textStatus":t,"xhr":e,"errorThrown":r}})}r&&"object"==typeof r?r.url=t:r=t,r.type=(r.type||"GET").toUpperCase(),r.headers=r.headers||{};var n,o,a,i=new Promise(function(e,t){n=e,o=t}),u=new XMLHttpRequest;u.open(r.type,r.url,!0),"html"===r.dataType?(r.dataType="POST"===r.type?"x-www-form-urlencoded; charset=UTF-8":"json",u.setRequestHeader("Accept","text/html"),u.setRequestHeader("Content-Type","application/"+r.dataType)):(r.dataType=r.dataType||("POST"===r.type?"x-www-form-urlencoded; charset=UTF-8":"json"),u.setRequestHeader("Content-Type","application/"+r.dataType));
+for(var s in r.headers){r.headers.hasOwnProperty(s)&&u.setRequestHeader(s,r.headers[s])}if(r.timeout&&(u.timeout=r.timeout),u.onreadystatechange=function(){if(4===u.readyState){var e="response"in u?u.response:u.responseText;if("POST"===r.type&&"json"===r.dataType&&"string"==typeof e){try{e=JSON.parse(e)}catch(t){}}200===u.status?(r.success&&r.success.apply(r.context,[e,u.statusText,u]),n({"rsp":e,"textStatus":u.statusText,"xhr":u})):(r.error&&r.error.apply(r.context,[u,u.statusText]),a=u,o({"xhr":u,"textStatus":u.statusText,"errorThrown":u.status})),r.complete&&r.complete.apply(r.context,[e,e.statusText,u])
+}},"object"==typeof r.data){if("json"===r.dataType){r.data=JSON.stringify(r.data)}else{var c=[];for(var l in r.data){c.push(l+"="+r.data[l])}r.data=c.join("&")}}return u.send(r.data),i},r.post=function(e,t,n,o){var a={};return"object"==typeof e?a=e:(a.url=e,a.data=t,a.success=n,a.dataType=o),a.type="POST",r.ajax(a)},r.createShim=function(e){var t=document.createElement(e);return r.get(t)},r.get=function(r){return e()?jQuery(r):new t.jQueryShim([r])},r.byTagName=function(n,o){if(e()){return jQuery(n,o)}var a=[];
+if(o instanceof t.jQueryShim){for(var i=0;i<o.length;i++){a=a.concat(r.byTagName(n,o[i]))}}else{a=(o||document).getElementsByTagName(n)}return new t.jQueryShim(a)},r.byId=function(r,n){if(e()){return jQuery("#"+r,n)}var o;return o=n?n.find("#"+r):document.getElementById(r),new t.jQueryShim(o?[o]:[])},r.byClassName=function(n,o){if(e()){return jQuery("."+n,o)}var a=[];if(o instanceof t.jQueryShim){for(var i=0;i<o.length;i++){a=a.concat(r.byClassName(n,o[i]))}}else{o=o||document,a=o.getElementsByClassName?o.getElementsByClassName(n):o.querySelectorAll("."+n)
+}return new t.jQueryShim(a)},r.queryAll=function(n,o){if(e()){return jQuery(n,o)}var a=[];if(o instanceof t.jQueryShim){for(var i=0;i<o.length;i++){a=a.concat(r.queryAll(n,o[i]))}}else{a=(o||document).querySelectorAll(n)}return new t.jQueryShim(a)}}(),function(){var e=window,t=e.$Debug=e.$Debug||{};if(!t.appendLog){var r=[],n=0;t.appendLog=function(t){var o=e.$Config||{},a=o.maxDebugLog||25,i=(new Date).toUTCString()+":"+t;r.push(n+":"+i),r.length>a&&r.shift(),n++},t.getLogs=function(){return r}}}(),function(){function e(e,t){function r(a){var i=e[a];
+return n-1>a?void(o.r[i]?r(a+1):o.when(i,function(){r(a+1)})):void t(i)}var n=e.length;r(0)}function t(e,t,a){function i(){var e=!!u.method,o=e?u.method:a[0],i=u.extraArgs||[],s=n.$WebWatson;try{var c=r(a,!e);if(i&&i.length>0){for(var l=i.length,f=0;l>f;f++){c.push(i[f])}}o.apply(t,c)}catch(d){return void(s&&s.submitFromException&&s.submitFromException(d))}}var u=o.r&&o.r[e];return t=t?t:this,u&&(u.skipTimeout?i():n.setTimeout(i,0)),u}function r(e,t){return Array.prototype.slice.call(e,t?1:0)}var n=window;n.$Do||(n.$Do={"q":[],"r":[],"removeItems":[],"lock":0,"o":[]});
+var o=n.$Do;o.when=function(r,n){function a(e){t(e,i,u)||o.q.push({"id":e,"c":i,"a":u})}var i=0,u=[],s=1,c="function"==typeof n;c||(i=n,s=2);for(var l=s;l<arguments.length;l++){u.push(arguments[l])}r instanceof Array?e(r,a):a(r)},o.register=function(e,r,n){if(!o.r[e]){o.o.push(e);var a={};if(r&&(a.method=r),n&&(a.skipTimeout=n),arguments&&arguments.length>3){a.extraArgs=[];for(var i=3;i<arguments.length;i++){a.extraArgs.push(arguments[i])}}o.r[e]=a,o.lock++;try{for(var u=0;u<o.q.length;u++){var s=o.q[u];s.id==e&&t(e,s.c,s.a)&&o.removeItems.push(s)
+}}catch(c){throw c}finally{if(o.lock--,0===o.lock){for(var l=0;l<o.removeItems.length;l++){for(var f=o.removeItems[l],d=0;d<o.q.length;d++){if(o.q[d]===f){o.q.splice(d,1);break}}}o.removeItems=[]}}}},o.unregister=function(e){o.r[e]&&delete o.r[e]}}(),function(){function e(){return l.$Config||l.ServerData||{}}function t(e,t){var r=l.$Debug;r&&r.appendLog&&(t&&(e+=" '"+(t.src||t.href||"")+"'",e+=", id:"+(t.id||""),e+=", async:"+(t.async||""),e+=", defer:"+(t.defer||"")),r.appendLog(e))}function r(){var e=l.$B;
+if(void 0===c){if(e){c=e.IE}else{var t=l.navigator.userAgent;c=-1!==t.indexOf("MSIE ")||-1!==t.indexOf("Trident/")}}return c}function n(e){var t=e.indexOf("?"),r=t>-1?t:e.length;return r>p&&e.substr(r-p,p).toLowerCase()===d}function o(){var t=e(),r=t.loader||{};return r.slReportFailure||t.slReportFailure||!1}function a(){var t=e(),r=t.loader||{};return r.redirectToErrorPageOnLoadFailure||!1}function i(){var t=e(),r=t.loader||{};return r.logByThrowing||!1}function u(e){var t=!0,r=e.src||e.href||"";if(r){if(n(r)){try{e.sheet&&e.sheet.cssRules&&!e.sheet.cssRules.length&&(t=!1)
+}catch(o){}}}else{t=!1}return t}function s(){function r(e){var t=f.getElementsByTagName("head")[0];t.appendChild(e)}function o(e,t,r,o){var u=null;return u=n(e)?a(e):"script"===o.toLowerCase()?i(e):c(e,o),t&&(u.id=t),"function"==typeof u.setAttribute&&(u.setAttribute("crossorigin","anonymous"),r&&"string"==typeof r&&u.setAttribute("integrity",r)),u}function a(e){var t=f.createElement("link");return t.rel="stylesheet",t.type="text/css",t.href=e,t}function i(e){var t=f.createElement("script");return t.type="text/javascript",t.src=e,t.defer=!1,t.async=!1,t
+}function c(e,t){var r=f.createElement(t);return r.src=e,r}function l(e){if(!(y&&y.length>1)){return e}for(var t=0;t<y.length;t++){if(0===e.indexOf(y[t])){return y[t+1<y.length?t+1:0]+e.substring(y[t].length)}}return e}function d(e,r,n,o){return t("[$Loader]: "+(b.failMessage||"Failed"),o),T[e].retry<h?(T[e].retry++,g(e,r,n),void s._ReportFailure(T[e].retry,T[e].srcPath)):void(n&&n())}function p(e,r,n,o){if(u(o)){t("[$Loader]: "+(b.successMessage||"Loaded"),o),g(e+1,r,n);var a=T[e].onSuccess;"function"==typeof a&&a(T[e].srcPath)
+}else{d(e,r,n,o)}}function g(e,n,a){if(e<T.length){var i=T[e];if(!i||!i.srcPath){return void g(e+1,n,a)}i.retry>0&&(i.srcPath=l(i.srcPath),i.origId||(i.origId=i.id),i.id=i.origId+"_Retry_"+i.retry);var u=o(i.srcPath,i.id,i.integrity,i.tagName);u.onload=function(){p(e,n,a,u)},u.onerror=function(){d(e,n,a,u)},u.onreadystatechange=function(){"loaded"===u.readyState?setTimeout(function(){p(e,n,a,u)},500):"complete"===u.readyState&&p(e,n,a,u)},r(u),t("[$Loader]: Loading '"+(i.srcPath||"")+"', id:"+(i.id||""))}else{n&&n()
+}}var v=e(),h=v.slMaxRetry||2,m=v.loader||{},y=m.cdnRoots||[],b=this,T=[];b.retryOnError=!0,b.successMessage="Loaded",b.failMessage="Error",b.Add=function(e,t,r,n,o,a){e&&T.push({"srcPath":e,"id":t,"retry":n||0,"integrity":r,"tagName":o||"script","onSuccess":a})},b.AddForReload=function(e,t){var r=e.src||e.href||"";b.Add(r,"AddForReload",e.integrity,1,e.tagName,t)},b.AddIf=function(e,t,r){e&&b.Add(t,r)},b.Load=function(e,t){g(0,e,t)}}var c,l=window,f=l.document,d=".css",p=d.length;s.On=function(e,t,r){if(!e){throw"The target element must be provided and cannot be null."
+}t?s.OnError(e,r):s.OnSuccess(e,r)},s.OnSuccess=function(e,r){var n=e.src||e.href||"",i=o(),c=a();if(!e){throw"The target element must be provided and cannot be null."}if(u(e)){t("[$Loader]: Loaded",e);var l=new s;l.failMessage="Reload Failed",l.successMessage="Reload Success",l.Load(null,function(){if(i){throw"Unexpected state. ResourceLoader.Load() failed despite initial load success. ['"+n+"']"}c&&(document.location.href="/error.aspx?err=504")})}else{s.OnError(e,r)}},s.OnError=function(e,r){var n=e.src||e.href||"",i=o(),u=a();
+if(!e){throw"The target element must be provided and cannot be null."}t("[$Loader]: Failed",e);var c=new s;c.failMessage="Reload Failed",c.successMessage="Reload Success",c.AddForReload(e,r),c.Load(null,function(){if(i){throw"Failed to load external resource ['"+n+"']"}u&&(document.location.href="/error.aspx?err=504")}),s._ReportFailure(0,n)},s._ReportFailure=function(e,t){if(i()&&!r()){throw"[Retry "+e+"] Failed to load external resource ['"+t+"'], reloading from fallback CDN endpoint"}},l.$Loader=s}(),function(e,t){function r(){if(!u){if(!t.body){return void setTimeout(r)
+}u=!0,e.$Do.register("doc.ready",0,!0)}}function n(){if(!s){if(!t.body){return void setTimeout(n)}r(),s=!0,e.$Do.register("doc.load",0,!0),i()}}function o(e){(t.addEventListener||"load"===e.type||"complete"===t.readyState)&&r()}function a(){t.addEventListener?(t.addEventListener("DOMContentLoaded",o,!1),e.addEventListener("load",n,!1)):t.attachEvent&&(t.attachEvent("onreadystatechange",o),e.attachEvent("onload",n))}function i(){t.addEventListener?(t.removeEventListener("DOMContentLoaded",o,!1),e.removeEventListener("load",n,!1)):t.attachEvent&&(t.detachEvent("onreadystatechange",o),e.detachEvent("onload",n))
+}var u=!1,s=!1;return"complete"===t.readyState?void setTimeout(n):void a()}(window,document),function(){function e(){w||(b.when("$WebWatson.init",function(){if(y&&y.enabled){var e=new h.$Loader;e.AddIf(!h.jQuery,y.sbundle,"WebWatson_DemandSupport"),y.sbundle=null,delete y.sbundle;var n=h.wLive&&h.wLive.Core&&h.wLive.Core.DataRequest;e.AddIf(!n,y.fbundle,"WebWatson_DemandFramework"),y.fbundle=null,delete y.fbundle,e.Add(y.bundle,"WebWatson_DemandLoaded"),y.bundle=null,delete y.bundle,e.Load(t,r)}}),w=!0)}function t(){if(h.$WebWatson){if(h.$WebWatson.isProxy){return void r()
+}b.when("$WebWatson.full",function(){for(;T.length>0;){var e=T.shift();e&&h.$WebWatson[e.cmdName].apply(h.$WebWatson,e.args)}})}}function r(){var e=h.$WebWatson?h.$WebWatson.isProxy:!0;if(e){if(!E&&JSON){var t="/handlers/Watson";y&&y.url&&(t=y.url);try{for(var r=-1,o=0;o<T.length;o++){if("submit"===T[o].cmdName){r=o;break}}var a=T[r]?T[r].args||[]:[],i={"sr":y.sr,"ec":"Failed to load external resource [Core Watson files]","wec":55,"idx":1,"pn":$Config.pgid||"","sc":$Config.scid||0,"hpg":$Config.hpgid||0,"msg":"Failed to load external resource [Core Watson files]","url":a[1]||"","ln":0,"ad":0,"an":!1,"cs":"","sd":$Config.serverDetails,"ls":null,"diag":g(y)};
+$Api.Json(t,i)}catch(u){}E=!0}y.loadErrorUrl&&window.location.assign(y.loadErrorUrl)}n(),y&&y.loadErrorUrl&&e&&window.location.assign(y.loadErrorUrl)}function n(){var e=h.$WebWatson;T=[],h.$WebWatson=null,h.$Debug&&h.$Debug.appendLog&&h.$Debug.appendLog("[WebWatson]: unregistering"),e.errorHooked&&e._orgErrorHandler&&(h.onerror=e._orgErrorHandler)}function o(t){return function(){var r=arguments;T.push({"cmdName":t,"args":r}),e()}}function a(){var e=["foundException","resetException","submit","submitFromException","showError","reportException"],t=this;
+t.isProxy=!0;for(var r=e.length,n=0;r>n;n++){var a=e[n];a&&(t[a]=o(a))}}function i(e,t,r,n,o,a,i,u,s){var c=h.event;a||(a=f(o||c,i?i+2:2)),h.$Debug&&h.$Debug.appendLog&&h.$Debug.appendLog("[WebWatson]:"+(e||"")+" in "+(t||"")+" @ "+(r||"??")),x.submit(e,t,r,n,o||c,a,i,u,s)}function u(e,t){return{"signature":e,"args":t,"toString":function(){return this.signature}}}function s(e){for(var t=[],r=e.split("\n"),n=0;n<r.length;n++){t.push(u(r[n],[]))}return t}function c(e){for(var t=[],r=e.split("\n"),n=0;n<r.length;n++){var o=u(r[n],[]);
+r[n+1]&&(o.signature+="@"+r[n+1],n++),t.push(o)}return t}function l(e){if(!e){return null}try{if(e.stack){return s(e.stack)}if(e.error){if(e.error.stack){return s(e.error.stack)}}else{if(window.opera&&e.message){return c(e.message)}}}catch(t){}return null}function f(e,t){var r=[];try{for(var n=arguments.callee;t>0;){n=n?n.caller:n,t--}for(var o=0;n&&S>o;){var a="InvalidMethod()";try{a=n.toString()}catch(i){}var s=[],c=n.args||n.arguments;if(c){for(var f=0;f<c.length;f++){s[f]=c[f]}}r.push(u(a,s)),n=n.caller,o++
+}}catch(i){r.push(u(i.toString(),[]))}var d=l(e);return d&&(r.push(u("--- Error Event Stack -----------------",[])),r=r.concat(d)),r}function d(e){if(e){try{var t=/function (.{1,})\(/,r=t.exec(e.constructor.toString());return r&&r.length>1?r[1]:""}catch(n){}}return""}function p(e){if(e){try{if("string"!=typeof e&&JSON&&JSON.stringify){var t=d(e),r=JSON.stringify(e);return r&&"{}"!==r||(e.error&&(e=e.error,t=d(e)),r=JSON.stringify(e),r&&"{}"!==r||(r=e.toString())),t+":"+r}}catch(n){}}return""+(e||"")}function g(e){var t=[];
+try{if(jQuery?(t.push("jQuery v:"+jQuery().jquery),t.push(jQuery.easing?"jQuery.easing:"+JSON.stringify(jQuery.easing):"jQuery.easing is not defined")):t.push("jQuery is not defined"),e&&e.expectedVersion&&t.push("Expected jQuery v:"+e.expectedVersion),b){var r,n="";for(r=0;r<b.o.length;r++){n+=b.o[r]+";"}for(t.push("$Do.o["+n+"]"),n="",r=0;r<b.q.length;r++){n+=b.q[r].id+";"}t.push("$Do.q["+n+"]")}if(h.$Debug&&h.$Debug.getLogs){var o=h.$Debug.getLogs();o&&o.length>0&&(t=t.concat(o))}if(T){for(var a=0;a<T.length;a++){var i=T[a];
+if(i&&"submit"===i.cmdName){try{if(JSON&&JSON.stringify){var u=JSON.stringify(i);u&&t.push(u)}}catch(s){t.push(p(s))}}}}}catch(c){t.push(p(c))}return t}function v(e){if(!m){if(m=!0,y=e||{},!y||!y.enabled){return void n()}h.$WebWatson._config=y,b.register("$WebWatson.init",0,!0)}}var h=window,m=(h.document,!1),y=null,b=h.$Do;if(!h.$WebWatson){var T=[],w=!1,E=!1,S=10,x=h.$WebWatson=new a;x.CB={},x._orgErrorHandler=h.onerror,h.onerror=i,x.errorHooked=!0,b.when("jQuery.version",function(e){b.when("$WebWatson.init",function(){y.expectedVersion=e
+})}),h.$Config&&h.$Config.watson?v(h.$Config.watson):b.when("$Config",function(){v(h.$Config.watson)}),b.register("$WebWatson")}}(),/*! ------------------------------------------- START OF THIRD PARTY NOTICE -----------------------------------------
+
+This file is based on or incorporates material from the projects listed below (Third Party IP). The original copyright notice and the license under which Microsoft received such Third Party IP, are set forth below. Such licenses and notices are provided for informational purposes only. Microsoft licenses the Third Party IP to you under the licensing terms for the Microsoft product. Microsoft reserves all other rights not expressly granted under this agreement, whether by implication, estoppel or otherwise. 
+
+ * json2.js (2016-05-01)
+ * https://github.com/douglascrockford/JSON-js
+ * License: Public Domain
+
+Provided for Informational Purposes Only
+
+Public Domain
+  
+NO WARRANTY EXPRESSED OR IMPLIED. USE AT YOUR OWN RISK.
+----------------------------------------------- END OF THIRD PARTY NOTICE ------------------------------------------ */
+"object"!=typeof JSON&&(JSON={}),function(){"use strict";function f(e){return 10>e?"0"+e:e}function this_value(){return this.valueOf()}function quote(e){return rx_escapable.lastIndex=0,rx_escapable.test(e)?'"'+e.replace(rx_escapable,function(e){var t=meta[e];return"string"==typeof t?t:"\\u"+("0000"+e.charCodeAt(0).toString(16)).slice(-4)})+'"':'"'+e+'"'}function str(e,t){var r,n,o,a,i,u=gap,s=t[e];switch(s&&"object"==typeof s&&"function"==typeof s.toJSON&&(s=s.toJSON(e)),"function"==typeof rep&&(s=rep.call(t,e,s)),typeof s){case"string":return quote(s);
+case"number":return isFinite(s)?String(s):"null";case"boolean":case"null":return String(s);case"object":if(!s){return"null"}if(gap+=indent,i=[],"[object Array]"===Object.prototype.toString.apply(s)){for(a=s.length,r=0;a>r;r+=1){i[r]=str(r,s)||"null"}return o=0===i.length?"[]":gap?"[\n"+gap+i.join(",\n"+gap)+"\n"+u+"]":"["+i.join(",")+"]",gap=u,o}if(rep&&"object"==typeof rep){for(a=rep.length,r=0;a>r;r+=1){"string"==typeof rep[r]&&(n=rep[r],o=str(n,s),o&&i.push(quote(n)+(gap?": ":":")+o))}}else{for(n in s){Object.prototype.hasOwnProperty.call(s,n)&&(o=str(n,s),o&&i.push(quote(n)+(gap?": ":":")+o))
+}}return o=0===i.length?"{}":gap?"{\n"+gap+i.join(",\n"+gap)+"\n"+u+"}":"{"+i.join(",")+"}",gap=u,o}}var rx_one=/^[\],:{}\s]*$/,rx_two=/\\(?:["\\\/bfnrt]|u[0-9a-fA-F]{4})/g,rx_three=/"[^"\\\n\r]*"|true|false|null|-?\d+(?:\.\d*)?(?:[eE][+\-]?\d+)?/g,rx_four=/(?:^|:|,)(?:\s*\[)+/g,rx_escapable=/[\\\"\u0000-\u001f\u007f-\u009f\u00ad\u0600-\u0604\u070f\u17b4\u17b5\u200c-\u200f\u2028-\u202f\u2060-\u206f\ufeff\ufff0-\uffff]/g,rx_dangerous=/[\u0000\u00ad\u0600-\u0604\u070f\u17b4\u17b5\u200c-\u200f\u2028-\u202f\u2060-\u206f\ufeff\ufff0-\uffff]/g;
+"function"!=typeof Date.prototype.toJSON&&(Date.prototype.toJSON=function(){return isFinite(this.valueOf())?this.getUTCFullYear()+"-"+f(this.getUTCMonth()+1)+"-"+f(this.getUTCDate())+"T"+f(this.getUTCHours())+":"+f(this.getUTCMinutes())+":"+f(this.getUTCSeconds())+"Z":null},Boolean.prototype.toJSON=this_value,Number.prototype.toJSON=this_value,String.prototype.toJSON=this_value);var gap,indent,meta,rep;"function"!=typeof JSON.stringify&&(meta={"\b":"\\b","	":"\\t","\n":"\\n","\f":"\\f","\r":"\\r",'"':'\\"',"\\":"\\\\"},JSON.stringify=function(e,t,r){var n;
+if(gap="",indent="","number"==typeof r){for(n=0;r>n;n+=1){indent+=" "}}else{"string"==typeof r&&(indent=r)}if(rep=t,t&&"function"!=typeof t&&("object"!=typeof t||"number"!=typeof t.length)){throw new Error("JSON.stringify")}return str("",{"":e})}),"function"!=typeof JSON.parse&&(JSON.parse=function(text,reviver){function walk(e,t){var r,n,o=e[t];if(o&&"object"==typeof o){for(r in o){Object.prototype.hasOwnProperty.call(o,r)&&(n=walk(o,r),void 0!==n?o[r]=n:delete o[r])}}return reviver.call(e,t,o)}var j;if(text=String(text),rx_dangerous.lastIndex=0,rx_dangerous.test(text)&&(text=text.replace(rx_dangerous,function(e){return"\\u"+("0000"+e.charCodeAt(0).toString(16)).slice(-4)
+})),rx_one.test(text.replace(rx_two,"@").replace(rx_three,"]").replace(rx_four,""))){return j=eval("("+text+")"),"function"==typeof reviver?walk({"":j},""):j}throw new SyntaxError("JSON.parse")})}(),function(){var e=window,t=e.$Debug=e.$Debug||e.Debug||{};e.Debug=t,t.options={"tracePagePath":!1},t.fail=function(t){var r=new Error(t+" "),n=e.$WebWatson;if(n&&n.submitFromException(r,void 0,33),!e.$B||!e.$B.BlackBerry){throw r}alert("Error: "+t)},t.assert=function(e,r){e||(r="Assert failed: "+r,t.trace(r),confirm(r+"\r\n\r\nBreak into debugger?")&&t.fail(r))
+},t.failIf=function(e,r){e||t.fail(r)},t.trace=function(r,n){if(r||(r=""),t.options.tracePagePath){var o=e.location.pathname;n=n?o+": "+n:o}n&&(r=n+": "+r),t.appendLog&&t.appendLog(r),e.console&&e.console.log&&e.console.log((new Date).toUTCString()+":"+r)}}(),function(){var e=window,t=e.Object;t.resolve||(t.resolve=function(e){try{"string"==typeof e?e=Function.parse(e):"object"==typeof e?e=e.constructor:"function"!=typeof e&&(e=null)}catch(t){return null}return e}),t.__typeName="Object"}(),function(){function e(e,t,n){var o=n.s===t;
+if(!o){t=t||0;var a,i,u=e.charCodeAt(t);n.s=-1,55296>u||u>57343?n.c=u:56319>=u?(a=u,i=e.charCodeAt(t+1),r.assert(!isNaN(i),"High surrogate not followed by low surrogate in fixedCharCodeAt()"),n.c=1024*(a-55296)+(i-56320)+65536,n.s=t+1):(n.c=-1,o=!0)}return!o}var t=window,r=t.$Debug,n=t.String,o=t.String.prototype;o.endsWith=function(e){return r.assert(e,"must provide suffix"),this.substr(this.length-e.length)==e},o.startsWith=function(e){return r.assert(e,"must provide prefix"),this.substr(0,e.length)==e},o.trim=function(){return this.replace(/^\s+|\s+$/g,"")
+};var a=/\{\d+\}/g,i=/[\{\}]/g;o.format=function(){function e(e){var n=t[e.replace(i,"")];return r.assert("undefined"!=typeof n,"String Format- Provide argument at index "+e.replace(i,"")),null==n&&(n=""),n}var t=arguments;return this.replace(a,e)};var u=/[^\w.,-]/g;o.encodeXmlAttribute=o.encodeHtmlAttribute=function(){return this.replace(u,function(e){return["&#",e.charCodeAt(0),";"].join("")})};var s=/[^\w .,-]/g;o.encodeXml=o.encodeHtml=function(){var t={"c":0,"s":-1};return this.replace(s,function(r,n,o){return e(o,n,t)?["&#",t.c,";"].join(""):""
+})};var c=/[^\w.%-]/g;o.encodeURIComponent=o.encodeUrl=function(){return encodeURIComponent(this).replace(c,function(e){var t=e.charCodeAt(0).toString(16);return"%"+(1==t.length?"0"+t:t).toUpperCase()})};var l=/[^\w .,-]/g;o.encodeJson=function(){return this.replace(l,function(e){var t=e.charCodeAt(0).toString(16),r=new Array(4-t.length+1).join("0");return"\\u"+r+t.toUpperCase()})},o.decodeURIComponent=o.decodeUrl=function(){return decodeURIComponent(this)};var f=/([\\\.\{\}\(\)\[\]\/\+\*\?\|\^\$])/gi;o.escapeRegex=function(e){return(0==arguments.length?this:e).replace(f,"\\$1")
+},n.__typeName="String"}(),function(){var e=window,t=(e.Debug,Function),r=t.prototype;t.parse||(t.parse=function(e){if("function"==typeof e){return e}var t=null;if(e){try{var r=0,n=e.split("."),t=window,o=n.length;for(r;o>r;r++){if(t=t[n[r]],!t){t=null;break}}"function"!=typeof t&&(t=null)}catch(a){t=null}}return t}),r.invoke||(r.invoke=function(){this.apply(null,arguments)}),t.__typeName="Function"}(),function(){var e=window,t=e.$Debug,r=e.Array.prototype;r.indexOf||(r.indexOf=function(e,t){var r=this.length;
+for((t=t||0)<0&&(t=Math.max(0,r+t));r>t;){if(this[t++]===e){return t-1}}return-1}),r.forEach||(r.forEach=function(e,r){t.assert(e,"fnCb must be provided");for(var n=this.length,o=0;n>o;o++){e.call(r,this[o],o,this)}t.assert(n==this.length,"Do not modify array during forEach")}),r.remove||(r.remove=function(e){var t=this.indexOf(e);return t>=0&&this.splice(t,1),t>=0}),e.Array.__typeName="Array"}(),function(e){function t(e){return void 0===e||null===e}function r(e){if(t(e)){return!1}var r=(typeof e||"object").toLowerCase();
+return"object"===r||"array"===r}e.$setVar=function(e,n){if(t(e)){return n}if(n){for(var o in n){if(n.hasOwnProperty(o)){var a=(e[o],n[o]);if(e===a){continue}r(a)?($Debug.trace("Deep copying - "+o),e[o]=$setVar(e[o],a)):void 0!==a&&(e[o]=a)}}}return e}}(window),function(e){function t(){for(var t=arguments.length,r=0;t>r;r++){for(var n=arguments[r],o=e,a=n.split("."),i=a.length,u=0;i>u;u++){var s=a[u];o[s]||(o[s]={}),o=o[s]}e.$Do&&e.$Do.register("NS_"+n)}}e.registerNamespace=t,t("wLive"),t("wLive.Core"),t("wLive.Controls"),t("wLive.Account")
+}(window),function(){function e(){return n.$Config||n.ServerData||{}}function t(){return e().clientTelemetry||{}}function r(e,t,r){t&&r&&(e[t]=r)}var n=window,o="uaid",a="tcxt",i="client-flight",u="network-type",s="app-version",c="amtcxt",l="network_type",f=n.$ClientTelemetry=n.$ClientTelemetry||{},d=!1;f.getUnauthSessionId=function(){var r=t();return r.uaid||e().uaid||null},f.setHeaders=function(e){var n=t();r(e,o,f.getUnauthSessionId());var c=d||!n.tcxt;n.tcxt&&r(e,a,n.tcxt),c&&(r(e,i,n.client_flight),r(e,u,n.nw),r(e,s,n.av))
+},f.setNetworkType=function(e){if(e){var r=t();r.nw!=e&&(r.nw=e,d=!0,$Do.when("jQuery",function(){$PageHelper.queryAll("input[name="+l+"]").val(e)}))}},f.getTelemetryContext=function(){var e=t();return e.tcxt},f.updateTelemetryContext=function(e){if(e){var r=t();r.tcxt=e,$Do.when("jQuery",function(){$PageHelper.queryAll("input[name="+c+"]").val(e)})}},n.$Do&&n.$Do.register("$ClientTelemetry")}(),function(){function e(e){Y=!0,$Debug&&$Debug.appendLog&&$Debug.appendLog("ApiRequest._unloadEvent("+(e.type||"")+")")
+}function t(t,r){t&&t.addEventListener?t.addEventListener(r,e):t&&t.attachEvent&&t.attachEvent("on"+r,e)}function r(e){return"string"==typeof e}function n(e,t){for(var r in e){e.hasOwnProperty(r)&&t(r,e[r])}}function o(){return C.$Config||C.ServerData||{}}function a(e){var t=C.$Debug||{};t.appendLog&&t.appendLog(e)}function i(e,t){var r=C.wLive||{},n=r.PageStats;n&&e&&e.pageStats&&n.add(e.pageStats,t)}function u(e,t,r,n){var o=C.$ReportEvent;if($ReportCall){var a=(new Date).getTime()-r,i={"apiId":t,"time":a,"success":e};
+e||(i.errorCode=n||j),o.ReportApiCall(i)}}function s(e,t,n){null===V&&(V=!1,e&&(e.isINT&&e.isCorpnet||e.isOneBox)&&(V=!0));var o={"url":t,"apiId":null,"timeout":n.timeout||L,"startTime":(new Date).getTime(),"isSync":n.isSyncRequest||Y,"success":function(e){var t=this,r=t.apiId;i(e,t.startTime),r&&u(!0,r,t.startTime),n.success&&n.success(e,n.context)},"failure":function(e){var t=this,r=t.apiId;if(i(e,t.startTime),r){var o=j;e&&e.error&&(o=e.error.code),u(!1,r,t.startTime,o)}n.failure&&n.failure(e,n.context)}};
+return r(t)||(context.url=t.url,context.apiId=t.apiId),o}function c(e,t){var r=o();t=t||{};var n,a=t.error||null,i=t.cm||t||{};if(i.api&&(r.apiCanary=i.api),$ClientTelemetry.updateTelemetryContext(i.tcxt),!a){return void e.success(t)}var n=a.stackTrace;n=n&&n.encodeJson?n.encodeJson():"";var u='{"code": "'+a.code+'", "message": "'+a.message+'", "debug": "'+a.debugMessage+'", "stacktrace": "'+n+'", "url": "'+e.url+'"}';if(P.push(u),P.length>W&&P.shift(),a.code!=N){var s=(e||{}).isSync||!1;s||y(e,t),e.failure(t)
+}}function l(e,t,r,n){t=t||{};var o={"status":t.status||n};if(500==t.status&&t.responseText){try{o=JSON.parse(t.responseText)||{}}catch(a){}}if(!o.error){var i=!1,u=j,s="Request Failed -- No Response from Server",l={"url":e.url,"error":r,"tasks":[],"executionTimeMs":(new Date).getTime()-e.startTime,"schedulerTimeMs":0};switch(o.pageStats=l,r){case"timeout":u=O,s="Timeout Error",i=!0;break;case"abort":u=N,s="Aborted",l.info=r,l.error=null;break;case"parsererror":s="Unable to parse response",i=!0;break;case"error":default:t.status>=400&&(i=!0),l.info=r,l.error=null
+}o.error={"code":u,"message":s,"debugMessage":"(xhr status "+t.status+") xhr.responseText: "+t.responseText,"stackTrace":"","isFatal":i}}return c(e,o)}function f(e){setTimeout(function(){var t={"error":{"code":R,"message":"Request Failed!","isFatal":!0}};c(e,t)},0)}function d(e){var t={"status":408,"statusText":"timeout","responseText":"Request Timeout"};l(e,t,t.statusText)}function p(e,t,r,n){var r=r,o=t.message||t.description,a="";try{a=JSON.stringify(t),a&&"{}"!==result||(a=errorObj.toString())}catch(i){}var u={"code":j,"message":o||r,"debugMessage":"Error: "+r+" - "+o,"stackTrace":t.stack,"isFatal":!0},s={"url":e.url,"error":r,"tasks":[],"executionTimeMs":(new Date).getTime()-e.startTime,"schedulerTimeMs":0};
+c(e,{"status":n||499,"error":u,"pageStats":s})}function g(e){return e?"<span style='font-weight: bold;'>"+e.toString().encodeHtml()+":</span> ":""}function v(e,t){return t?"<div>"+g(e)+t.toString().encodeHtml()+"</div>":""}function h(e){var t=[];if(e){for(var r=(e||"").split("\n"),n=0;n<r.length;n++){var o=r[n];o=o.replace(/\\u000d\\u000a/gi,"\\u000d").replace(/\\u000a\\u000d/gi,"\\u000d").replace(/\\u000a/gi,"\\u000d");for(var a=(o||"").split("\\u000d"),i=0;i<a.length;i++){var u=(a[i]||"").replace(/\\u000a/gi,"").replace(/\\u0022/gi,'"').replace(/\\u0027/gi,"'").replace(/\\u0028/gi,"(").replace(/\\u0029/gi,")").replace(/\\u003a/gi,":").replace(/\\u003c/gi,"{{").replace(/\\u003d/gi,"=").replace(/\\u003e/gi,"}}").replace(/\\u005c/gi,"\\").replace(/\\u0060/gi,"`");
+t.push(u)}}}return t}function m(e){var t="";if(e&&e.length>0){for(var r=0;r<e.length;r++){t+=e[r]+"\n"}}return t}function y(e,t){var r=C.$WebWatson,n=C.$Debug||{};if(!Y&&V&&t&&t.error&&(t.error.stackTrace||t.error.debugMessage)){var o=e.url,a=e.transport,i=h(t.error.stackTrace),u=null;if(t.error.isFatal||t.error.showError||z){u=m(i),r&&r.showError(t.error.code,"ApiRequest Error: "+(t.error.message||""),o||"<none>",null,null,null,u,t.error.debugMessage,t.error.data,t.error.isFatal?"#FFC0C0":"#C0FFFF",!0)}else{if(n.scriptConsole){var s=n.scriptConsole;
+u=m(i),s.errorHtml(v("Url",o)+v("Transport",a)+v("Error Code",t.error.code)+(t.error.message?v("Message",t.error.message):"")+(t.error.isFatal?v("Is Fatal",t.error.isFatal):"")+(t.error.debugMessage?v("Debug",t.error.debugMessage):""),{"url":o,"code":t.error.code,"data":t.error.data,"stackTrace":i,"rsp":t})}}}}function b(e,t,r){t&&r&&(e[t]=r)}function T(e){var t=e;if(e&&!r(e)){var o={};n(e,function(e,t){"unsafe_"===e.substr(0,7)&&(e=e.substr(7)),o[e]=t}),t=JSON.stringify(o)+"\n"}return t&&(t=t.replace(/\?/g,"\\u003F")),t
+}function w(e,t,r){if(t.toLowerCase().indexOf(M)>=0){try{r(e)}catch(n){p(e,n,"Json parse error",415)}}else{t.toLowerCase().indexOf(Q)>=0&&c(e,null)}}function E(e,t,r){var n=e.url;n+=n.indexOf("?")>=0?"&":"?",n+=H+"=1";var o={"hdrs":t,"data":r};D.sendBeacon(n,T(o)),c(e,null)}function S(e,t,r){function n(t){if(!t.ok){return void l(e,t,t.statusText,t.status)}if(204==t.status){return void c(e,null)}var r=t.headers.get("content-type");return r?void w(e,r,function(){t.json().then(function(t){c(e,t)})["catch"](function(t){p(e,t,"Fetch Json error",415)
+})}):void 0}var o=!1,a=setTimeout(function(){o=!0,d(e)},e.timeout);C.fetch(e.url,{"method":"POST","body":r,"cache":"no-cache","headers":t,"credentials":"include","keepalive":!1}).then(function(e){clearTimeout(a),o||n(e)})["catch"](function(t){clearTimeout(a),o||Y||p(e,t,"Fetch error",503)})}function x(e,t,r){function o(t){if(t.status<200||t.status>=300){return void l(e,t,t.statusText,t.status)}if(204==t.status){return void c(e,null)}var r=t.getResponseHeader("content-type");r&&w(e,r,function(){var r="response"in t?t.response:t.responseText,n=JSON.parse(r);
+c(e,n)})}function a(){if(C.XMLHttpRequest){var t=new XMLHttpRequest}else{if(C.ActiveXObject){try{t=new ActiveXObject("Msxml2.XMLHTTP")}catch(r){try{t=new ActiveXObject("Microsoft.XMLHTTP")}catch(r){if(failureCallback){var t={"status":422,"statusText":"Client: No transport","responseText":""};l(e,t,t.statusText,422)}return null}}}}return t}var i=a();if(null!=i){i.onload=function(){o(i)},i.onerror=function(){l(e,i,i.statusText,499)},i.ontimeout=function(){d(e)};var u=!e.isSync;i.open("POST",e.url,u),u&&(i.timeout=e.timeout),i.withCredentials=!0,i.setRequestHeader(F,M+"; charset=utf-8"),n(t,function(e,t){i.setRequestHeader(e,t)
+}),i.send(r)}}function $(e,t){var r=o();a("$Api.Json("+e.url+")");var n={};return b(n,"Accept",M),b(n,"hpgid",r.hpgid),b(n,"hpgact",r.hpgact),b(n,"canary",r.apiCanary),b(n,J,r.correlationId),b(n,q,r.correlationId),b(n,B,r.eipt),b(n,U,r.apiUseIpt?"1":null),b(n,X,r.authz),$ClientTelemetry.setHeaders(n),b(n,I,3),(e.isSync||e.useBeacon)&&D.sendBeacon?(e.transport="beacon",b(n,_,e.transport+(e.isSync?"Sync":"")),void E(e,n,t)):C.fetch&&G?(e.transport="fetch",b(n,_,e.transport+(e.isSync?"Sync":"")),b(n,F,M+"; charset=utf-8"),void S(e,n,T(t))):(e.transport="xhr",b(n,_,e.transport+(e.isSync?"Sync":"")),void x(e,n,T(t)))
+}var C=window,D=C.navigator,A=C.$Api=C.$Api||{},P=A.Errors=[],L=3e4,j=8e3,O=8001,N=8002,k=6e3,R=6001,W=100,H="bcn",F="Content-Type",I="x-ms-apiVersion",_="x-ms-apiTransport",J="client-request-id",q="x-ms-correlation-id",M="application/json",Q="image/gif",U="wlPreferIpt",B="eipt",X="authz",V=null,z=!1,G=!0,Y=!1;t(C.body,"beforeunload"),t(C.body,"unload"),t(C.body,"pagehide"),t(C,"beforeunload"),t(C,"unload"),t(C,"pagehide"),A.Json=function(e,t,r){var n=o(),a=s(n,e,r||{});return n.apiCanary?$(a,t):void f(a)},A.ErrorCodes={"GeneralError":k,"AuthFailure":R,"InvalidArgs":"6002","Generic":j,"Timeout":O,"Aborted":N},A.forceShowErrors=function(e){z=e
+},A.useFetch=function(e){G=e},A._showErrorDetail=y,C.$Do&&C.$Do.register("$Api")}(),function(){function e(e){if(!e||0===e.length){return null}var n=r(e),o=t(n);return o}function t(e){if(!e){return null}for(var t=12.5,r=t,n=0;e>=t&&20>n;){n++;var o=t;t+=r,r=o}return n}function r(e){var t=0,r=0,o=l(e);if(o.length>0){for(var a=0;a<o.length;a++){o[a].TransferSize>0&&o[a].TransferTime>0&&(t+=o[a].TransferSize,r+=o[a].TransferTime)}}return r>0?n(t,r):null}function n(e,t){if(e>0&&t>0){var r=e/t;return 1e3*r/1024}return null
+}function o(e){return"document"===e?document.location.hostname:i(e)?a(e):document.location.hostname}function a(e){if(e){var t=document.createElement("a");return t.href=e,t.hostname}return""}function i(e){var t=new RegExp("^(?:[a-z]+:)?//","i");return t.test(e)?!0:!1}function u(e){var t={},r=f(s(e),e.responseEnd),n=e.transferSize;return g.isResourcePlt1(e)!==!0&&(n>0&&r>0?(t.TransferSize=n,t.TransferTime=r):(t.TransferSize=null,t.TransferTime=null)),t}function s(e){var t;if(e&&(t=e.responseStart),!t){var r=c(e);
+if(r>0){return r}}return t}function c(e){return e&&e.fetchStart>0&&e.fetchStart<Number.MAX_VALUE?e.fetchStart:null}function l(e){var t={},r=[];if(!e){return r}for(var n=0;n<e.length;n++){var a=o(e[n].name)||"";t[a]||""===a||(t[a]=u(e[n]))}for(var i in t){t.hasOwnProperty(i)&&r.push(t[i])}return r}function f(e,t){return e&&t?e>t?0:t-e:null}var d=window,p=d.$Do,g=d.$PltHelper=d.$PltHelper||{},v=d.$PltTransferBucket=d.$PltTransferBucket||{};v.getPltTransferBucketData=e,p&&p.register("$PltTransferBucket")}(),function(){function e(e,n){f.when("$Telemetry",function(){var o={},i=l.$Telemetry,u=i.get("pltMetrics")||{};
+o.apiTimingInfo=u.apiTimingInfo||[],o.isPlt1=a(e.entries),o.plt=r(e.timing),o.timing=e.timing,o.pltOverallTransferBucket=p.getPltTransferBucketData(e.entries),o.dns=t("DNS",e.timing),o.tcp=t("TCP",e.timing),o.pageSource=n,i.set("pltMetrics",o)})}function t(e,t){return t&&t.domainLookupStart&&t.domainLookupEnd&&"DNS"===e?t.domainLookupEnd-t.domainLookupStart:t&&t.connectStart&&t.connectEnd&&"TCP"===e?t.connectEnd-t.connectStart:null}function r(e){if(!e){return 0}var t=e.customLoadEventEnd,r=!0;return(!t||e.loadEventEnd&&t<e.loadEventEnd)&&(t=e.loadEventEnd),n(e,t,r)
+}function n(e,t,r){if(e&&t>0){var n=o(e,r);if(n&&t>=n){return t-n}}return 0}function o(e,t){return e.fetchStart>0&&t&&e.fetchStart<Number.MAX_VALUE?e.fetchStart:e.navigationStart>0?e.navigationStart:null}function a(e){var t=null;if(!e){return null}for(var r=0;r<e.length;r++){var n=e[r];if(s(n.entryType)&&!u(n.initiatorType)&&!c(n.name)){var o=i(n);if(o===!0){t=!0}else{if(o===!1){t=!1;break}}}}return t}function i(e){return e&&e.duration>0?e.duration<g?!0:!1:null}function u(e){return"subdocument"===e}function s(e){return"resource"===e
+}function c(e){return"document"===e}var l=window,f=l.$Do,d=l.$PltHelper=l.$PltHelper||{},p=l.$PltTransferBucket=l.$PltTransferBucket||{},g=50;d.sendTelemetryPerfData=e,d.isResourcePlt1=i,f&&f.register("$PltHelper")}(),function(){function e(e){var t=l.$Debug||{};t.appendLog&&t.appendLog(e)}function t(){return l.$Config||l.ServerData||{}}function r(){return l.location.hostname||l.location.host}function n(){var e=t(),n={};n[E]={};var o=n[E];void 0!==e.uiflvr&&(o[f]=e.uiflvr),void 0!==e.scid&&(o[d]=e.scid),void 0!==e.hpgid&&(o[g]=e.hpgid);
+var a=$ClientTelemetry.getTelemetryContext();void 0!==a&&(o[v]=a);var i=$ClientTelemetry.getUnauthSessionId();void 0!==i&&(o[p]=i);var u=e.WLXAccount&&e.WLXAccount.countryCode?e.WLXAccount.countryCode:"";u&&(o[m]=u),e.serverDetails&&(o[h]=e.serverDetails);var s=r();s&&(o[y]=s);var c=(l.navigator||{}).connection||{};c.effectiveType&&(o[T]=c.effectiveType,$ClientTelemetry.setNetworkType(b));try{if("undefined"!=typeof ExternalHelper){o[w]=ExternalHelper.getProperty("TelemetryAppVersion");var b=ExternalHelper.getProperty("TelemetryNetworkType");
+b&&(o[T]=b,$ClientTelemetry.setNetworkType(b))}}catch(S){}return n}function o(e,r){var n=t(),o=r[E]||{},a=e[E]||{},i=!1;void 0!==n.scid&&n.scid!==o[d]&&(a[d]=n.scid,i=!0),void 0!==n.hpgid&&n.hpgid!==o[g]&&(a[g]=n.hpgid,i=!0),i&&(e[E]=a),l.$ClientEvents&&(e.time=l.$ClientEvents.getTimeOnPage())}function a(e){var t={"evts":[]},r=e.evts;t[E]=e[E];var n=l.$ClientEvents;n&&n.getTimeOnPage&&(t[b]=n.getTimeOnPage());for(var o=0;o<r.length;o++){var a=r[o],i={"data":a.data};void 0!==a.time&&(i[b]=a.time),a[E]&&(i[E]=a[E]);
+var u={};u[a.name]=i,t.evts.push(u)}return t}function i(e,t,r){for(var n=e.url,o=e.evts,a=0;a<o.length;a++){var i=o[a],u={};t.evts&&(u=t.evts[a]||{});var s=u.status||t.status||404;r||u.error||200>s||s>=300?($Api._showErrorDetail&&$Api._showErrorDetail({"url":"#"+i.name+" @ "+n},u),i.failure({"name":i.name,"status":s,"error":u.error||t.error})):i.success(u.rsp||{})}}function u(e,t,r){var n=l.$WebWatson;if(e){try{e(t,r.context||r.data)}catch(o){n&&n.submitFromException(o,"EventApiRequest["+r.name+"]")}}}function s(t,r,n){n=n||{};
+var o={"name":t,"data":r,"success":function(r){e("EventApi: success("+t+") = "+r.status),u(n.success,r,this)},"failure":function(r){e("EventApi: failure("+t+") = "+r.status),u(n.failure,r,this)},"context":n.context};return o}function c(e){function t(){b=null}function r(){b||(b=n(),b.evts=[])}function u(){if(f&&b&&b.evts.length>=v){p&&clearTimeout(p);var e=d,t=b.evts.length>=g;t&&(e=0),p=setTimeout(function(){p=null,c.Post()},e)}h>0&&(m&&clearTimeout(m),m=setTimeout(function(){m=null,c.Post()},h))}var c=this,l=e.url,f=e.autoPost||!1,d=e.autoPostDelay||0,p=null,g=e.maxEvents||10,v=e.minEvents||5,h=e.flush||0,m=null,y=e.prePostCallback,b=null;
+t(),c.Add=function(e,t,n){r();var a=s(e,t,n);o(a,b),b.evts.push(a),u()},c.HasEvents=function(){return b&&b.evts.length>0},c.HasEvent=function(e){if(b&&b.evts.length>0){for(var t=0;t<theEvents.length;t++){var r=theEvents[t];if(r.name===e){return!0}}}return!1},c.Clear=function(){t()},c.Post=function(e){function r(e){i({"url":l,"evts":o},e,!1)}function n(e){i({"url":l,"evts":o},e,!0)}if(y&&y(e),b&&0!=b.evts.length){var o=b.evts,u=a(b);t();var s={"success":r,"failure":n};e&&(e.isSyncRequest||e.isUnloadEvent)&&(s.isSyncRequest=!0),$Api.Json(l,u,s)
+}}}var l=window,f="uiflvr",d="scid",p="uaid",g="hpgid",v="tcxt",h="svr",m="cntry",y="hst",b="tm",T="nt",w="av",E="cm";l.$AccountEventApi=c,l.$Do&&l.$Do.register("$AccountEventApi")}(),function(){function e(){return T||(T=y.timeOrigin||b.navigationStart||(new Date).getTime()),T}function t(){var t=Date.now()-e();return 0>t&&(t=0),t}function r(){return h.$Config||h.ServerData||{}}function n(){if(w){return w}var e=r(),t=e.clientEvents||{};if(!t.enabled){return null}var n=t.url||"/api/ClientEvents";t.addQs&&(n+=-1!==n.indexOf("?")?h.location.search.replace("?","&"):h.location.search);
+var o={"url":n,"flush":t.flush,"autoPost":t.autoPost,"autoPostDelay":t.autoPostDelay,"minEvents":t.minEvents,"maxEvents":t.maxEvents,"prePostCallback":i};return w=new $AccountEventApi(o)}function o(e,t,r){var o=n();if(o){r=r||{};var a=$[e];if(!a){var i={"name":e,"data":t};s(a,!1,i),t=i.data}o.Add(e,t,{"context":r.context,"success":r.success,"failure":r.failure})}}function a(e){return w&&w.HasEvent(e)}function i(e){var t=!1;e&&(e.isSyncRequest||e.isUnloadEvent)&&(t=!0),s(x,t)}function u(e){var t=null;e&&(t={"isUnloadEvent":!0}),i(t),w&&w.HasEvents()&&w.Post(t)
+}function s(e,t,r){if(e&&0!=e.length){for(var n=[],o=h.$WebWatson,a=o&&o.submitFromException,i=0;i<e.length;i++){var u=e[i];if(u&&u.cb&&!u.processing){var s=u.cb;try{u.processing=!0;var c={"args":s.args,"isUnload":t};r&&(c.evt=r);var l=[];l.push(c),s.apply(this,l)}catch(f){a&&n.push(f)}finally{u.processing=!1}}}for(;n.length>0;){o.submitFromException(n.shift())}}}function c(e,t,r){t&&e&&e.push({"cb":t,"args":r})}function l(e,t){var r=[];if(t){for(var n=e;n<t.length;n++){r.push(t[n])}}return r}function f(e){c(S,e,l(1,arguments))
+}function d(e){c(x,e,l(1,arguments))}function p(e,t){var r=$[e];r||(r=[],$[e]=r),c(r,t,l(2,arguments))}function g(e){s(S,!0),u(!0),$Debug&&$Debug.appendLog&&$Debug.appendLog("ClientEvents._unloadEvent("+(e.type||"")+")")}function v(e,t){e&&e.addEventListener?e.addEventListener(t,g):e&&e.attachEvent&&e.attachEvent("on"+t,g)}var h=window,m=h.$Do,y=h.performance||{},b=y.timing||{},T=null,w=null,E=0,S=[],x=[],$={},C=h.$ClientEvents=h.$ClientEvents||{};v(h.body,"beforeunload"),v(h.body,"unload"),v(h.body,"pagehide"),v(h,"beforeunload"),v(h,"unload"),v(h,"pagehide"),C.isEnabled=function(){return E||0
+},C.getTimeOnPage=t,C.add=o,C.send=u,C.hasEvent=a,C.addEventListener=p,C.addPreSendHandler=d,C.addUnloadHandler=f,m&&(m.register("$ClientEvents"),m.when("$Config",function(){var e=r(),t=e.clientEvents||{};E=t.enabled||0}))}(),function(){function e(e){return"function"==typeof e}function t(e,t){for(var r=[],e=e||[],n=0,o=e.length;o>n;n++){r.push(t(e[n],n))}return r}function r(){return l.$Config||l.ServerData||{}}function n(){var e=l.performance,r={};return e&&!g&&h?(e.navigation&&(r.navigation=o(e.navigation)),e.timing&&(r.timing=o(e.timing),p&&(r.timing.customLoadEventEnd=p>0?p:0)),e.getEntries&&(r.entries=t(e.getEntries(),o)),navigator.connection&&(r.connection=o(navigator.connection)),r):null
+}function o(t){var r={};if(t.toJSON){return t.toJSON()}for(var n in t){e(t[n])||(r[n]=t[n])}return r}function a(){var e=n();null!=e&&(y.add("perf",e),g=!0),null!=e&&!v&&h&&(b.sendTelemetryPerfData(e,m),v=!0)}function i(){h=!0;var e=r();e.isCustomPerf&&a()}function u(e){p=e}function s(){h&&(d&&clearTimeout(d),a())}function c(){f.when("$Config",function(){if(y.isEnabled()){var e=r(),t=e.clientEvents||{};l.performance&&l.performance.timing&&!e.isCustomPerf&&(i(),d=setTimeout(function(){d=null,a()},t.pltDelay||500),y.addUnloadHandler(s),y.addPreSendHandler(s))
+}})}var l=window,f=l.$Do,d=null,p=0,g=!1,v=!1,h=!1,m="Perf",y=l.$ClientEvents=l.$ClientEvents||{},b=l.$PltHelper=l.$PltHelper||{};l.addEventListener?l.addEventListener("load",c):l.attachEvent?l.attachEvent("onload",c):f&&f.when("doc.load",c),y.addPlt=a,y.SetPageLoadCompleted=i,y.SetCustomPageLoadCompletedTime=u,f&&f.register("$ClientPerf")}(),function(e){function t(t,r,n,o,a,i,u,s,c,l){$Do.when("DataRequest",function(){var f=new e.wLive.Core.DataRequest(t,r,n,o,a,i,u,s,c,l);f.start()})}function r(t,r,n,o,a,i,u,s){return new Promise(function(c,l){$Do.when("DataRequest",function(){var f=new e.wLive.Core.DataRequest(t,r,n,c,l,o,a,i,u,s);
+f.start()})})}var n=8001,o=8002,a=e.$DataRequest=e.$DataRequest||{};a.Json=a.Json||t,a.JsonAsync=a.JsonAsync||r,a.ApiErrorCodes={"GeneralError":"6000","AuthFailure":"6001","InvalidArgs":"6002","Timeout":n,"Aborted":o}}(window),$Do.when("$Config",function(){function e(e,n){var o=null,i=null,u=a.WLXAccount&&a.WLXAccount.countryCode?a.WLXAccount.countryCode:"",s=e.cxhFunctionRes?e.cxhFunctionRes:null;"number"==typeof e||"string"==typeof e?(o=e,i=""):(o=e.pageId,i=r(e.userAction));var c=t(e,o,n),l={"pageApiId":o,"clientDetails":f,"country":u,"userAction":i,"source":n,"clientTelemetryData":c,"cxhFunctionRes":s};
+return p=!0,l}function t(e,t,r){var o={};try{var a=n.performance&&n.performance.timing?n.performance.timing:null;if(o.category=r,o.pageName=t?String(t).replace(/_Client$/,""):"",o.eventInfo={},o.eventInfo.timestamp=(new Date).getTime(),o.eventInfo.enforcementSessionToken=e.enforcementSessionToken||null,null!=a&&!p&&d&&(o.eventInfo.perceivedPlt=g>a.loadEventEnd?g-a.navigationStart:a.loadEventEnd-a.navigationStart,o.eventInfo.networkLatency=a.responseEnd-a.navigationStart),r!==s||p||(o.category=u),"undefined"!=typeof ExternalHelper){o.eventInfo.appVersion=ExternalHelper.getProperty("TelemetryAppVersion");
+var i=ExternalHelper.getProperty("TelemetryNetworkType");o.eventInfo.networkType=i,$ClientTelemetry.setNetworkType(i)}"undefined"!=typeof ExternalHelper&&o.category===u?(o.eventInfo.precaching=ExternalHelper.getProperty("TelemetryPrecaching"),o.eventInfo.bundleVersion=ExternalHelper.getProperty("TelemetryResourceBundleVersion"),o.eventInfo.deviceYear=ExternalHelper.getProperty("TelemetryDeviceYearClass"),o.eventInfo.isMaster=ExternalHelper.getProperty("TelemetryIsRequestorMaster"),o.eventInfo.bundleHits=ExternalHelper.getProperty("TelemetryResourceBundleHits"),o.eventInfo.bundleMisses=ExternalHelper.getProperty("TelemetryResourceBundleMisses"),ExternalHelper.setProperty("TelemetryResourceBundleHits","0"),ExternalHelper.setProperty("TelemetryResourceBundleMisses","0")):o.category===c&&(e.suggestedAccountType&&(o.eventInfo.suggestedAccountType=e.suggestedAccountType),e.accountType&&(o.eventInfo.accountType=e.accountType),e.duration&&(o.eventInfo.duration=e.duration),e.errorCode&&(o.eventInfo.errorCode=e.errorCode)),"undefined"!=typeof ExternalHelper&&ExternalHelper.reportTelemetry(JSON.stringify(o))
+}catch(l){}return o}function r(e){var t="";return $PageHelper.isArray(e)?($PageHelper.each(e,function(e,r){t+=r,t+=","}),t=t.substring(0,t.length-1)):"string"==typeof e&&(t=e),t}var n=window,o=n.$DataRequest,a=n.$Config,i=a&&a.WLXAccount?a.WLXAccount.urls:null,u="PageLoad",s="PageView",c="UserAction",l=1e4,f=[],d=!1,p=!1,g=0,v=n.$ReportEvent={},h=a&&a.WLXAccount?a.WLXAccount.noReportClient:!1;v.ApiTime=function(){if("undefined"!=String(n.wLive.PageStats)&&"undefined"!=String(n.wLive.PageStats.d)){var e=n.wLive.PageStats.d[0]||{},t=e.clientStart;
+if("undefined"!=String(t)){return(new Date).getTime()-t}}return 0},v.ReportApiCall=function(e){if(e){var t=e.apiId;if(!t){throw"ApiId is missing for api call"}void 0===e.time&&(e.time=v.ApiTime()),f.push(e)}},v.SetCustomPageLoadCompletedTime=function(e){g=e,$ClientEvents&&$ClientEvents.SetCustomPageLoadCompletedTime(e)},v.PageLoadCompleted=function(){d=!0,$ClientEvents&&$ClientEvents.SetPageLoadCompleted(!0)},v.Fire=function(t){if(!h&&i&&i.reportClientData){var r,n;"number"==typeof t||"string"==typeof t?(r="",n=""):(r=t.testSuccessMethod,n=t.testFailureMethod);
+var a=e(t,s);o.Json(null,$Utility.generateUrl(i.baseDomain,i.reportClientData,!0),a,r,n,l),f=[]}},v.Action=function(t){if(!h&&i&&i.reportClientData){var r=e(t,c);t.skipClientCall||o.Json(null,$Utility.generateUrl(i.baseDomain,i.reportClientData,!0),r,t.testSuccessMethod,t.testFailureMethod,l)}},$Do.register("$ReportEvent")});
+
+//]]></script> <!-- We should NEVER skip burning this to the page -->
+
+    
+    <!-- Base -->
+    <script type="text/javascript">//<![CDATA[
+$B={"ltr":1,"Safari":1,"_iPhone":1,"_M14":1,"_D0":1,"Full":1,"RE_WebKit":1,"b":{"name":"Safari","major":14,"minor":0},"os":{"name":"Ios","version":"14.4.2"},"V":"14.0"};
+//]]></script>
+    <!-- This NEEDS to be defined as early as possible otherwise you WILL miss JS errors
+        as this will trigger the WatsonLoader to finish initializing -->
+    <script type="text/javascript">//<![CDATA[
+(function(w){
+var t0={"imgsBase":"https://acctcdn.msauth.net/images/","clientEvents":{"enabled":1,"telemetryEnabled":1,"useOneDSEventApi":1,"url":"/API/ClientEvents","providerUrl":"https://acctcdn.msauth.net/oneds_Xr2D7Nex80v7A-8bxF8jgQ2.js?v=1","sri":"sha384-HdFnAGZbiJa1zm70bpsqbgazDVpIg/5yR8JiEiz5BxfupQIr2Nx7JG69Oq+15t0A","flush":60000,"autoPost":1,"autoPostDelay":1000,"minEvents":1,"maxEvents":1,"pltDelay":500,"appInsightsConfig":{"instrumentationKey":"9be4f99c87354f6e94f8f99664545aa0-be890c9e-a0c3-4e93-a12a-040f61fd5120-7013","webAnalyticsConfiguration":{"autoCapture":{"jsError":1}}},"defaultEventName":"IDUX_AccountUXClientTelemetryEvent_WebWatson","serviceID":"1"},"serverDetails":{"dc":"westus2","ri":"wusXXXX003G","ver":{"v":[2,0,1960,2]},"rt":"2021-04-17T01\u003a42\u003a18","et":15},"watson":{"enabled":1,"bundle":"https://acctcdn.msauth.net/watson_rjZS-jaNNRyqe9ESKNv5iw2.js?v=1","sbundle":"https://acctcdn.msauth.net/jquerypackage_1.10_5V7LAuc3bNAQx2QQfr1RPw2.js?v=1","fbundle":"https://acctcdn.msauth.net/datarequestpackage_h-_7C7UzwdefXJT9njDBTQ2.js?v=1","resetErrorPeriod":5,"maxCorsErrors":2,"maxInjectErrors":5,"maxErrors":10,"maxTotalErrors":100,"incScripts":1,"expSrcs":["acctcdn.msauth.net","acctcdn.msftauth.net","acctcdnmsftuswe2.azureedge.net","acctcdnvzeuno.azureedge.net","account.live.com","login.live.com"],"expectedVersions":["1.10.2"]},"clientTelemetry":{"uaid":"ae49e5919c444e59b506c3905137c641","tcxt":"Rk\u002boIywfcGMCqt97UST9\u002bSfeQxhik\u002fA\u002b\u002b\u002fUQX4WlcMkkdRXIfJjWLA60P2UOfIPhGhMBNmP\u002fI2VykK6PfHnCcHcLS9AbfNG0rkMd9K7m8bxlIS\u002fjC3plxZ0RjWe\u002fngUpUOmMYtLovmHScxenWUvsGh3xOlJ19j6zOg\u002fwSoTDNJXYcLA9eNXD8RhgQ0LmotjWb6PkeC0Sda518pSxkMngynQavmaay8BAos17qYd9mPW5tWfbyrTYZ0\u002fHmRFpBIZB9LoIwo\u002f6Jzg5TVB3e7nXHWtehM60v24OU5MRKtJlWtkLPFd65hsZKPwNs0RFbmJfjyVYU7MylZ8oc0mUBkzHlWjn\u002flgvmMwUfflfFCwzpJlCOQfm\u002fSi9kcnklYXcLHdFTJUjulbIZQJG4FqGiQG\u002fSicRCSr\u002bL\u002fpPX\u002fgY4tWP0\u002fIifoHy1Pjh1QdT\u002bsqCMwoU2dS42AhxUyDlDE8l\u002fxcyG2MsoCjeynBN5ZQQ0MQ4mZo\u003d\u003a2\u003a3"},"WLXAccount":{"Animation":{"showConvergedAnimation":1},"urls":{"baseDomain":"https://signup.live.com/","reportClientData":"API\u002fReportClientEvent"},"hasWin10NonOOBEBehavior":0,"hasWin10Behavior":0,"signup":{"showConvergedFrame":1,"page":{"isRTL":0,"imgs":{"baseUrl":"https://acctcdn.msauth.net/images/","marchingAnts":"marching_ants_tUCo5RgDcZLjLE_li_Lbqw2.gif","marchingAntsWhite":"marching_ants_white_Fm3lNHEmUlOrOkVt7-baIw2.gif","msLogo":"microsoft_logo_7lyNn7YkjJOP0NwZNw6QvQ2.svg","msLogoWhite":"microsoft_logo_white_WV6SBtQnTELCe2bjcfpjPQ2.svg","leftArrow":"Arrows\u002fleft_qcwoJO81F7bEFg3Pj_fUEA2.svg","leftArrowWhite":"Arrows\u002fleft_white_48cQvjBSJTrXyqU8Jwd2gw2.svg","rightArrow":"Arrows\u002fright_aGpzma_a9NXwYO6wizIMQg2.svg","rightArrowWhite":"Arrows\u002fright_white_BCQ8nqTxlKnILt4pCthDYw2.svg","dropdownCaret":"dropdown_caret_KXSZjGsyILZaoTf0sI9X-A2.svg","dropdownCaretWhite":"dropdown_caret_white_eYnSFE34p5V81ElMUenxtg2.svg","arrow":"Arrows\u002fleft_qcwoJO81F7bEFg3Pj_fUEA2.svg","arrowWhite":"Arrows\u002fleft_white_48cQvjBSJTrXyqU8Jwd2gw2.svg","accountIcon":"picker_account_msa_LY-GBZvhdoM4lwme5t3t6w2.svg","progressIndicatorLarge":"common\u002fspinner_grey_120_al8Ofe5eGXw1aCTwvKglIg2.gif"},"showDesc":0,"showEasiSignupDesc":0,"showNewEmailOption":1,"credentialsStep":1,"passwordStep":2,"birthDateCountryAccrualStep":3,"verificationStep":4,"totalStep":4,"isPaginated":1,"noAuthCancel":1,"pwdless":0,"pwdlessemail":0,"showInlinePhoneCountryCode":1,"collectDob":1,"isFLOrder":1,"shouldSuppressCapsLockWarning":0,"isDfpEnabled":1,"dateOrder":"MDY","shouldShowInputYear":1,"appCentipedeHtml":null,"useKoreaPrivacy":0,"collectFLName":0,"isMojangUpgrade":0,"showMojangUpgradeExp":0,"showMojangUpgradeSpeedbump":0,"useNewValidationBehavior":1},"strings":{"copyrightNotice":"\u0026copy\u003b 2021 Microsoft","convergedTouPrivacyText":"\u003ca target\u003d\u0022_blank\u0022 rel\u003d\u0022noreferrer noopener\u0022 id\u003d\u0022terms\u0022 href\u003d\u0022https\u003a\u002f\u002fwww.microsoft.com\u002fen-us\u002fservicesagreement\u002fdefault.aspx\u0022\u003eTerms of Use\u003c\u002fa\u003e \u003ca target\u003d\u0022_blank\u0022 rel\u003d\u0022noreferrer noopener\u0022 id\u003d\u0022privacy\u0022 href\u003d\u0022https\u003a\u002f\u002fgo.microsoft.com\u002ffwlink\u002f\u003fLinkID\u003d521839\u0022\u003ePrivacy \u0026 Cookies\u003c\u002fa\u003e","usernameRecoverySpeedbumpPageTitle":"You may already have an account","usernameRecoverySpeedbumpDesc":"\u007b0\u007d is already being used with another Microsoft account. You should sign in with that account.","usernameRecoverySpeedbumpRecoveryLinkUrl":"https://account.live.com/username/recover?uaid=ae49e5919c444e59b506c3905137c641&bu=https%3a%2f%2fsignup.live.com%2fsignup%3flcid%3d1033%26wa%3dwsignin1.0%26rpsnv%3d13%26ct%3d1618623592%26rver%3d7.0.6738.0%26wp%3dMBI_SSL%26wreply%3dhttps%253a%252f%252faccount.microsoft.com%252fauth%252fcomplete-signin%253fru%253dhttps%25253A%25252F%25252Faccount.microsoft.com%25252F%25253Focid%25253DEML_Core_CONS_CGC_UPS_EML_MSAWelcomeFtPTest_50424_2157023_16530_en-us_HER%252526zuid%25253D10778DA060A167D2805A523AF8F76C96E2%252526ru%25253Dhttps%2525253A%2525252F%2525252Faccount.microsoft.com%2525252F%2525253Focid%2525253DEML_Core_CONS_CGC_UPS_EML_MSAWelcomeFtPTest_50424_2157023_16530_en-us_HER%25252526zuid%2525253D10778DA060A167D2805A523AF8F76C96E2%26lc%3d1033%26id%3d292666%26lw%3d1%26fl%3deasi2%26mkt%3den-US%26lic%3d1%26uaid%3dae49e5919c444e59b506c3905137c641%26username%3dprefillUserName&ru=https%3a%2f%2flogin.live.com%2f%3funr%3d0&uiflavor=Web&uitheme=&mkt=en-US","birthdatePageTitle":"Create account","birthdatePageDescription":"We need just a little more info to set up your account. Your date of birth helps us to provide you with age-appropriate settings.","loading":"Loading...","pleaseWait":"Please wait","cancelButton":"Cancel","passwordPageTitle":"Create a password","passwordPageDesc":"Enter the password you would like to use with your account.","verifyPageTitlePhone":"Verify phone number","verifyPageTitleEASI":"Verify email","verifyPageDescEASI":"Enter the code we sent to \u003cstrong\u003e\u007b0\u007d\u003c\u002fstrong\u003e. If you didn\u0027t get the email, check your junk folder or \u003ca id\u003d\u0022resendCodeLink\u0022 href\u003d\u0022\u0023\u0022\u003etry again\u003c\u002fa\u003e.","usernamePrefillSpeedbumpDesc":"Looks like you don\u0027t have an account with us. We\u0027ll create one for you using \u003cstrong id\u003d\u0027memberNamePrefill\u0027\u003e\u007b0\u007d\u003c\u002fstrong\u003e.","smsDisclaimer":"By providing your phone number, you agree to receive service notifications to your mobile phone. Text messaging rates may apply.","memberNameDomainAriaLabel":"User name domain\u003a \u007b0\u007d","tooltip":{"firstName":"Your name will appear to your friends, co-workers, family, and others in the Microsoft services you use.","lastName":"Your name will appear to your friends, co-workers, family, and others in the Microsoft services you use.","memberName":{"live":"Create a Microsoft account to get a new email inbox and sign in to all Microsoft services.","easi":"Use your favorite email address as your Microsoft account to sign in to all Microsoft services."},"password":"Passwords must have at least 8 characters and contain at least two of the following\u003a uppercase letters, lowercase letters, numbers, and symbols.","country":{"noneu":"Your country or territory of residence","eu":"Privacy for residents of the European Union"},"birthdate":"Your date of birth helps us provide you with things like age-appropriate settings. We won\u0027t display it without your permission.","phoneNumber":"Your date of birth helps us provide you with things like age-appropriate settings. We won\u0027t display it without your permission.","alternateEmail":"Use an address that\u0027s different from your Microsoft account. If you forget your password, we\u0027ll send password reset info to this address."},"showEmailDomainOptions":"Show email domain options","hideEmailDomainOptions":"Hide email domain options","emailDomainOptionsMenuAriaLabel":"Email domain options","showPasswordLabel":"Show password","evictionSpeedbumpTopDesc":"\u007b0\u007d is already a Microsoft account.","evictionSpeedbumpBottomDesc":"If you previously created an account with this phone number, \u003ca href\u003d\u0022\u007b0\u007d\u0022 id\u003d\u0022EvictionSignIn\u0022\u003esign in\u003c\u002fa\u003e with it.","evictionSpeedbumpPageTitle":"Create account","evictionSpeedbumpErrorPageDescription":"It looks like you already have a Microsoft account. Choose \u003cspan id\u003d\u0022signInButton\u0022\u003eNext\u003c\u002fspan\u003e to sign in with that account."},"showUsernameRecoverySpeedbump":1,"usernameRecoverySpeedbumpSignInUrl":"https://login.live.com/?unr=0","usernameRecoverySpeedbumpRecoveryLink":"If you do not remember your username, \u003ca id\u003d\u0022iRecoveryLink\u0022 href\u003d\u0022\u0023\u0022\u003erecover it now\u003c\u002fa\u003e.","overrideStrings":{"touPrivacyText":"Choosing \u003cstrong\u003eNext\u003c\u002fstrong\u003e means that you agree to the \u003ca target\u003d\u0022_blank\u0022 rel\u003d\u0022noreferrer noopener\u0022 href\u003d\u0022https\u003a\u002f\u002fwww.microsoft.com\u002fen-us\u002fservicesagreement\u002fdefault.aspx\u0022 \u003eMicrosoft Services Agreement\u003c\u002fa\u003e and \u003ca target\u003d\u0022_blank\u0022 rel\u003d\u0022noreferrer noopener\u0022 href\u003d\u0022https\u003a\u002f\u002fgo.microsoft.com\u002ffwlink\u002f\u003fLinkID\u003d521839\u0022\u003eprivacy and cookies statement.\u003c\u002fa\u003e","errors":{"memberNameTakenPhone":"This phone number has already been taken. Sign in with that number or use a different one. \u003ca href\u003d\u0022https\u003a\u002f\u002fgo.microsoft.com\u002ffwlink\u002f\u003flinkid\u003d2131380\u0022 id\u003d\u0022iLearnMore\u0022 \u003eLearn more\u003c\u002fa\u003e"},"hostedMemberNameTakenPhoneLearnMore":"For details, please visit this site\u003a https\u003a\u002f\u002faka.ms\u002fnumbertaken"},"progressTextTemplate":"Step \u007b0\u007d of \u007b1\u007d","displaySignInLinkInMnError":0,"isConvergedUX":1,"isOtsFlow":0,"domains":["outlook.com","hotmail.com"],"defaultDomain":"outlook.com","memberNameType":{"EASI":"EASI","Live":"Live","Phone":"Phone","Unknown":"Unknown"},"fl":"Default_EASI","suggAccType":"EASI","suggType":"Prefer","dobReq":0,"isOptOut":0,"showPasswordPeek":1,"signUpPageId":200646,"signUpHipEnforcementPageId":201040,"fss":{"isFamilyAddMemberFlow":0},"urls":{"dfpUrl":"https://fpt.live.com/?session_id=ae49e5919c444e59b506c3905137c641&CustomerId=33e01921-4d64-4f8c-a055-5bdaffd5e33d&PageId=SU&mkt=en-US","error":"error.aspx\u003ferrcode\u003d","queryUrl":"query.aspx","dataRequest":{"createAccount":"API\u002fCreateAccount","bannedPwd":"API\u002fCheckIfBannedPassword","checkAvailable":"API\u002fCheckAvailableSigninNames","getPhoneNumberDetails":"API\u002fGetPhoneNumberDetails","sendOtt":"API\u002fProofs\u002fSendOtt","createAndUpdateFamily":"API\u002fCreateAndUpdateFamily","addPendingMember":"API\u002fAddPendingMemberToFamily"}},"minBirthYear":1905,"maxBirthYear":2021,"regex":{"verificationCode":"\u005e\u005cd\u007b4\u007d\u0024","verificationCodeInt":"\u005e0\u0024\u007c\u005e\u005cd\u007b4\u007d\u0024"},"apis":{"dataRequest":{"checkAvailableApiId":200197,"createAccountApiId":200050}},"autoVerify":0,"sendOttAction":"SignUp","channel":{"email":"Email","sms":"SMS"},"resendCodeTimeout":60000,"sendOttTimeout":20000,"viewContext":{"data":{"siteId":"292666","isRdm":0,"prefill":{"country":"US","optinEmailCheckbox":1}}},"easiVerifyInline":1,"collectDeviceTicket":0,"localAccountProvider":"CXH.IDPS.Local","isEvictionSpeedbumpEnabled":1,"evictionSigninURL":"https://login.live.com/","useSameSite":1},"hip":{"url":"https://client.hip.live.com/GetHIP/GetHIPAMFE/HIPAMFE?id=15041&mkt=en-US&fid=f1661eb561ef475abbccd5e7c3449659&type=visual&rand=1218436792","fid":"f1661eb561ef475abbccd5e7c3449659","required":0,"enforcement":{"url":"https\u003a\u002f\u002fiframe.arkoselabs.com\u002fB7D8911C-5CC8-A9A3-35B0-554ACEE604DA\u002findex.html\u003fmkt\u003den","pid":"B7D8911C-5CC8-A9A3-35B0-554ACEE604DA","timeout":30000}},"countryCode":"US","firstFocusPriorityOrder":["\u0023maincontent .has-error,\u0023maincontent .inputState_error",".notification-body","\u0023maincontent \u005bautofocus\u005d,\u0023maincontent \u005bautofocus\u003dautofocus\u005d,\u0023maincontent \u005bautofocus\u003dtrue\u005d,\u0023maincontent input,\u0023maincontent button,\u0023maincontent select,\u0023maincontent a"],"supportsUnifiedHeader":0,"convergedFrameConfig":{"showConvergedFrame":1,"page":{"isRTL":0,"imgs":{"baseUrl":"https://acctcdn.msauth.net/images/","marchingAnts":"marching_ants_tUCo5RgDcZLjLE_li_Lbqw2.gif","marchingAntsWhite":"marching_ants_white_Fm3lNHEmUlOrOkVt7-baIw2.gif","msLogo":"microsoft_logo_7lyNn7YkjJOP0NwZNw6QvQ2.svg","msLogoWhite":"microsoft_logo_white_WV6SBtQnTELCe2bjcfpjPQ2.svg","leftArrow":"Arrows\u002fleft_qcwoJO81F7bEFg3Pj_fUEA2.svg","leftArrowWhite":"Arrows\u002fleft_white_48cQvjBSJTrXyqU8Jwd2gw2.svg","rightArrow":"Arrows\u002fright_aGpzma_a9NXwYO6wizIMQg2.svg","rightArrowWhite":"Arrows\u002fright_white_BCQ8nqTxlKnILt4pCthDYw2.svg","dropdownCaret":"dropdown_caret_KXSZjGsyILZaoTf0sI9X-A2.svg","dropdownCaretWhite":"dropdown_caret_white_eYnSFE34p5V81ElMUenxtg2.svg","arrow":"Arrows\u002fleft_qcwoJO81F7bEFg3Pj_fUEA2.svg","arrowWhite":"Arrows\u002fleft_white_48cQvjBSJTrXyqU8Jwd2gw2.svg","accountIcon":"picker_account_msa_LY-GBZvhdoM4lwme5t3t6w2.svg"}},"strings":{"copyrightNotice":"\u0026copy\u003b 2021 Microsoft","convergedTouPrivacyText":"\u003ca target\u003d\u0022_blank\u0022 rel\u003d\u0022noreferrer noopener\u0022 id\u003d\u0022terms\u0022 href\u003d\u0022https\u003a\u002f\u002fwww.microsoft.com\u002fen-us\u002fservicesagreement\u002fdefault.aspx\u0022\u003eTerms of Use\u003c\u002fa\u003e \u003ca target\u003d\u0022_blank\u0022 rel\u003d\u0022noreferrer noopener\u0022 id\u003d\u0022privacy\u0022 href\u003d\u0022https\u003a\u002f\u002fgo.microsoft.com\u002ffwlink\u002f\u003fLinkID\u003d521839\u0022\u003ePrivacy \u0026 Cookies\u003c\u002fa\u003e"}},"disableAnimations":1},"bundle":{"crossOrigin":1},"loader":{"cdnRoots":["https\u003a\u002f\u002facctcdn.msauth.net\u002f","https\u003a\u002f\u002facctcdn.msftauth.net\u002f","https\u003a\u002f\u002facctcdnmsftuswe2.azureedge.net\u002f","https\u003a\u002f\u002facctcdnvzeuno.azureedge.net\u002f"]},"scid":100118,"hpgid":200225,"cpgids":{"Signup_GetDeviceTicketPage_Client":200660,"Signup_MemberNamePage_Client":200639,"Signup_UsernameRecoverySpeedbumpPage_Client":200986,"Signup_EvictionSpeedbumpPage_Client":200999,"Signup_EvictionErrorView_Client":201041,"Signup_FedSignInSpeedbumpPage_Client":201011,"Signup_MojangSpeedbumpPage_Client":201029,"Signup_PasswordPage_Client":200646,"Signup_PrivacyPage_Client":200643,"Signup_TouPage_Client":200642,"Signup_ImpressumPage_Client":200838,"Signup_DataCollectionPage_Client":200653,"Signup_DataUsePage_Client":200651,"Signup_DataRetentionPage_Client":200652,"Signup_HipPage_Client":200644,"Signup_HipEnforcementPage_Client":201040,"Signup_BlockedPage_Client":200645,"Signup_VerificationPage_Client":200641,"Signup_FedConfirmPage_Client":200962,"Signup_FedPickerPage_Client":200995,"Signup_ProfileAccrualPage_Client":200640,"Signup_BirthdatePage_Client":200650,"Signup_ChildBlockedPage_Client":201027,"Signup_UpgradeChildSpeedbumpPage_Client":201031,"Signup_MemberNameTaken_Phone_LearnMore":201051,"Account_SignupPage":200225},"isCustomPerf":1,"uiflvr":1001,"cxhReporting":1,"CXHMsaBinaryVersion":0,"appId":"-","isApiTelemetryEnabled":1,"uaid":"ae49e5919c444e59b506c3905137c641","uhf":{"currentMenuItemId":""},"apiCanary":"ydLK45ZAKiqX\u002bfLslKdCVVgM58h\u002fSmkizkesrP1nlIZ9O63HExLIwg4EiJR\u002b95rdUBIcS\u002bGfpU2AluYOEWU4o1fLQKAyeMGQB7hj\u002bYI4ZGFsNbmHYChLswDaWwJpEq8PiCrG3vWKrwpOoJiFIGd3r1ha6OC8Ps72jE\u002bQZmGX6cS23QLcXfClt7JoxDfXnGdB1fklTC52HT8yQrkiwhDMCUpouedZwLWQYbsr\u002bTAISW4hT9rFPtYIysgOsp5wjdXo\u003a2\u003a3c","ip":"2607\u003afb90\u003a9cf5\u003a603f\u003ad916\u003a798e\u003a4c59\u003a2533","cid":"UnAuth","displayMemberName":"UnAuth","mkt":"en-US","email":"UnAuth","mktLocale":"en-US"};
+w["$Config"]=$setVar(w["$Config"],t0);w.$Do.register("$Config",0,true);})(window);
+//]]></script>
+    <link crossorigin="anonymous" href="https://acctcdn.msauth.net/converged_ux_v2_MdTi0w7tc4Fe6X-h3SAs2Q2.css?v=1" rel="stylesheet" onerror='$Loader.On(this,true)' onload='$Loader.On(this)' integrity='sha384-C3twirsZlri3wUNAq+kNLZNEcznVb21oLSNnBIT9fRDFm1pq7/MkCxLXfZOGAEwf' />
+
+        <script crossorigin="anonymous" src="https://acctcdn.msauth.net/jquerypackage_1.10_5V7LAuc3bNAQx2QQfr1RPw2.js?v=1" onerror='$Loader.On(this,true)' onload='$Loader.On(this)'></script>
+
+
+    
+    <meta name="PageId" content="i6209" />
+    <meta name="mswebdialog-title" content="Microsoft account" />
+    <meta name="mswebdialog-newwindowurl" content="*" />
+    
+    <script type="text/javascript">//<![CDATA[
+!function(){function n(n,e,t){if(n[e]){var r=n.__appendedFunctions=n.__appendedFunctions||{};if(r[e]){r[e].push(t)}else{{r[e]=[]}r[e].push(n[e]),r[e].push(t),n[e]=function(){for(var n=this.__appendedFunctions[e],t=0;t<n.length;t++){n[t].apply(this,arguments)}}}}else{n[e]=t}}function e(t,r,i){for(var a in r){r.hasOwnProperty(a)&&("initialize"!==a&&"dispose"!==a||i?i&&t[a]?e(t[a],r[a],i):t[a]=r[a]:n(t,a,r[a]))}return t}function t(n){var e={};for(var t in n){if(n.hasOwnProperty(t)){var r=n[t];e[t]=r&&"[object Array]"===Object.prototype.toString.call(r)?r.slice(0):r
+}}return e}var r=1;e(window,{"getId":function(n){var e;return n?(n.__id||(n.__id=String(r++)),e=n.__id):e=String(r++),e},"getKey":function(n){var e;return n&&(n.key||(n.key=getId(n)),e=n.key),e},"defineNamespace":function(n,t,r,i){for(var a=n.split("."),o=r||window,u=0;u<a.length-1;u++){o=o[a[u]]=o[a[u]]||{}}var s=a[a.length-1];return o[s]?e(o[s],t,i):o[s]=t,s},"defineClass":function(n,t,r,i){var a=t.prototype,o=defineNamespace(n,t);if(a.__fullName=n,a.__className=o,r&&e(a,r),i&&e(t,i),arguments.length>4){for(var u=4;u<arguments.length;u++){e(a,arguments[u])
+}}},"defineSubClass":function(n,r,i,a,o){var u=i||function(){};i=function(){r.apply(this,arguments),u.apply(this,arguments)};var s=i.prototype;if(e(s,r.prototype),s._base=r.prototype,s.__appendedFunctions&&(s.__appendedFunctions=t(s.__appendedFunctions)),defineClass(n,i,a,o),arguments.length>5){for(var p=5;p<arguments.length;p++){e(s,arguments[p])}}},"appendFunction":n,"mix":e,"bind":function(n,e){return function(){return e.apply(n,arguments)}}})}();
+
+//]]></script>
+    <script type="text/javascript">
+        !function(e){function t(t,r,n,a,i,s){function f(){return s?";SameSite=None":""}var c=this,u=null,l=null,p=!1;try{u=e.external}catch(y){}try{l=e.webkit&&e.webkit.messageHandlers||null,p=null!==l}catch(y){}c.getPropertyBag=function(){if(a){if(i&&"undefined"!=typeof Storage&&"undefined"!=typeof JSON&&sessionStorage.property){return JSON.parse(sessionStorage.property)}var e=c.getCookieValue("Property");if(e&&"undefined"!=typeof JSON){return JSON.parse(e)}}return null},c.getProperty=function(e){var t=null;try{t=u.Property(e)
+}catch(o){if(a){var r=c.getPropertyBag();r&&(t=r[e],t="string"==typeof t?decodeURIComponent(t):t)}}return t},c.setWizardButtons=function(e,o,r){try{if(!t){if(p){var n={"IsBackEnabled":e,"IsNextEnabled":o,"IsLastPage":r};l.SetWizardButtons.postMessage(JSON.stringify(n))}else{u.SetWizardButtons(e,o,r)}}}catch(i){a&&(c.setCookieValue("Page","BackButton",e),c.setCookieValue("Page","NextButton",o),c.setCookieValue("Page","LastPage",r))}},c.setHeaderText=function(e){try{t||(p?l.SetHeaderText.postMessage(e):u.SetHeaderText(e,""))
+}catch(r){a&&(o.title=e,c.setCookieValue("Page","HeaderText",e))}},c.setProperty=function(e,o){try{if(!t){if(p){var r={};r[e]=o,l.Property.postMessage(JSON.stringify(r))}else{n?u.Property(e,o):u.Property(e)=o}}}catch(s){a&&(i?c.setSessionStorageValue(e,o):c.setCookieValue("Property",e,o))}},c.setSessionStorageValue=function(e,t){if(i&&"undefined"!=typeof Storage&&"undefined"!=typeof JSON){var o={};sessionStorage.property&&(o=JSON.parse(sessionStorage.property)),o[e]="string"==typeof t?encodeURIComponent(t):t,sessionStorage.property=JSON.stringify(o)
+}},c.setCookieValue=function(e,t,r,n){if(a&&"undefined"!=typeof JSON){var i=(o.cookie.split(";"),c.getCookieValue(e)),s={};i&&(s=JSON.parse(i)),s[t]="string"==typeof r?encodeURIComponent(r):r,i=JSON.stringify(s);var u=e+"="+i+";domain="+$Config.sd+";path=/;secure";u+=n&&"none"!==n.toLowerCase()?";SameSite="+n:f(),o.cookie=u}},c.getCookieValue=function(e){var t=null;if(a){for(var r=o.cookie.split(";"),n=e+"=",i=0;i<r.length;i++){var s=r[i].trim();if(0==s.indexOf(n)){t=s.substring(n.length,s.length);break}}}return t
+},a&&(c.deleteCookie=function(e){o.cookie=e+"=; domain="+$Config.sd+";path=/; expires=Thu, 01 Jan 1970 00:00:01 GMT;secure"+f()}),c.finalNext=function(){try{if(a&&c.setCookieValue("Page","LastAction","finalNext"),t){var e=MSA.CXH;e&&e.finish(e.FinishStates.Success)}else{p?l.FinalNext.postMessage(""):u.FinalNext()}}catch(o){}},c.finalBack=function(){try{if(a&&c.setCookieValue("Page","LastAction","finalBack"),t){var e=MSA.CXH;e&&e.finish(e.FinishStates.GoBack)}else{p?l.FinalBack.postMessage(""):u.FinalBack()}}catch(o){}},c.ready=function(){if(!t){try{u.Ready()
+}catch(e){}}},c.notReady=function(){if(!t){try{u.NotReady()}catch(e){}}},c.reportTelemetry=function(e){try{p&&l.ReportTelemetry?l.ReportTelemetry.postMessage(e):u.ReportTelemetry&&u.ReportTelemetry(e)}catch(t){}}}var o=e.document;e.WizardExternalHelper=t,$Do.register("WizardExternalHelper",0,!0)}(window);
+
+        $Do.when("WizardExternalHelper", 0, function() {
+            try
+            {
+                window.ExternalHelper = new WizardExternalHelper(false, false, false, false, false, true);
+                $Do.register("ExternalHelper", 0, true);
+            }
+            catch (e)
+            {
+                /* Ignore errors while initializing WizardExternalHelper, as referencing window.external on IE7 throws an exception */
+            }
+        });
+    </script>
+
+    <script crossorigin="anonymous" src="https://acctcdn.msauth.net/knockout_3.3.0_X1BYS2jZMbi7hfUj8VuqFA2.js?v=1" onerror='$Loader.On(this,true)' onload='$Loader.On(this)'></script>
+
+    <script crossorigin="anonymous" src="https://acctcdn.msauth.net/lwsignupstringscountrybirthdate_en-us_Hu9XQvsxbdtI5Cn8ywiXCA2.js?v=1" onerror='$Loader.On(this,true)' onload='$Loader.On(this)' integrity='sha384-0bNgUnX3RaoHzGbbnEgvawHxIe8m4FJcGmuldXDrVqkHWhbh2f3aCC8bje/hATCh'></script>
+
+    <script crossorigin="anonymous" src="https://acctcdn.msauth.net/lightweightsignuppackage_HD5u0AbLsH5K38avjB7xTA2.js?v=1" onerror='$Loader.On(this,true)' onload='$Loader.On(this)' integrity='sha384-w5bH+ukTijixFFLTs/VnzBa0y9vnvQPU02W/emNE0sk7QdxbLRFnGFOsoBRHAvnn'></script>
+
+    
+
+
+    
+    <noscript><meta http-equiv="refresh" content="0; URL=https://signup.live.com/error.aspx?errcode=1045&amp;mkt=en-US"/></noscript>
+    
+  </head>
+
+  <body style="" class="ltr  Safari _iPhone _M14 _D0 Full RE_WebKit hide-cookie-banner" lang="en-US">
+        <div class="App" id="iPageElt">
+    
+    <script type="text/javascript">
+        function evt_master_onload() {
+            
+        }
+    </script>
+    
+
+        <div id="c_base" class="c_base">
+        <div id="c_content">
+            
+    
+<!--background -->
+<div class="background " role="presentation" >
+    
+    <div id="cnvCtrlBgImg" class="backgroundImage"></div>
+<script  type="text/javascript">
+$Do.when("doc.load",function(){document.getElementById("cnvCtrlBgImg").style.backgroundImage="url(https://acctcdn.msauth.net/images/2_vD0yppaJX3jBnfbHF1hqXQ2.svg)";});
+</script>
+    
+</div>
+
+<!-- environment banner -->
+
+
+<!--lightbox -->
+<div class="outer" role="presentation">
+    
+    <div class="middle ">
+        
+        <!-- header -->
+        
+        <div id="inner" class="inner zero-opacity">
+            
+            <div id="lightbox-cover" class="lightbox-cover"></div>
+            
+            <div aria-live="assertive">
+                <div id="progressBarLightbox" style="display:none;" aria-label="Please wait"></div>
+            </div>
+            <div class="win-scroll">
+                <img class="logo" src="https://acctcdn.msauth.net/images/microsoft_logo_7lyNn7YkjJOP0NwZNw6QvQ2.svg" role="img" alt="Microsoft" />
+                <div id="pageContent" class="pagination-view">
+                    
+            
+            <div role="main" id="maincontent">
+                
+    <div id="identityBanner" data-bind="component:
+        {
+            name: 'convergedBanner',
+            params: {
+                memberName: memberName,
+                isBackButtonVisible: isBackButtonVisible,
+                strings: strings,
+                arrowImg: arrowImg,
+                showIdentityBanner: showIdentityBanner
+            }
+        }">
+    </div>
+
+    <!-- HIP content -->
+    <div class="hide" id="hipScript"><script type="text/javascript"></script></div>
+    <div class="hide" id="hipContent"></div>
+    <div class="hide" id="hipTemplate"></div>
+
+    <div id="pageControlHost">
+    </div>
+    
+            </div>
+            
+            <div role="main" class="c_inmiddle_area" id="dynamiccontent" style="display:none" aria-hidden="true">
+                
+    <div id="signupTemplates">
+        <div id="DeviceTicket">
+            <div class="row text-title" role="alert" data-bind="text: strings.pleaseWait"></div>
+            <div data-bind="component: 'marchingAnts'"></div>
+        </div>
+        <div id="Credentials">
+        <form id="CredentialsForm" onsubmit="return false;" action="#">
+            <div data-bind="visible: showCredentialsView">
+                <div id="CredentialsInputPane" data-bind="visible: !showSuggestions()">
+                    <div id="CredentialsPageTitle" class="row text-title" role="heading" aria-level="1" data-bind="text: strings.pageTitle"></div>
+                    <!-- ko if: config.unsafe_convergedCobrandingSignupDescription -->
+                    <div class="text-body" data-bind="text: config.unsafe_convergedCobrandingSignupDescription"></div>
+                    <!-- /ko -->
+                    <!-- ko if: config.showDesc !== 0 -->
+                    <div class="text-body" data-bind="text: strings.pageDescription"></div>
+                    <!-- /ko -->
+                    <!-- ko if: (config.showEasiSignupDesc !== 0 && memberNameType() === "EASI" && !showPaginatedUsernamePrefill) -->
+                    <div class="text-body" data-bind="text: strings.easiSignupPageDescription"></div>
+                    <!-- /ko -->
+                    <!-- ko if: showPaginatedUsernamePrefill -->
+                    <div id="prefillMessage" class="row text-body no-margin-top" data-bind="html: strings.usernamePrefillSpeedbumpDesc.format(paginatedUsernamePrefill)"></div>
+                    <!-- /ko -->
+                    <!-- ko if: config.showMojangUpgradeExp -->
+                    <div class="text-body">Enter the password you would like to use with your account.</div>
+                    <!-- /ko -->
+                    
+                    <fieldset data-bind="attr: { 'disabled': memberName.isValidating() && $B.IE === 1 }">
+                        <!-- ko ifnot: showPaginatedUsernamePrefill -->
+                        <div class="row">
+                            <div role="alert" aria-live="assertive">
+                                <!-- ko if: showError(memberName) -->
+                                
+                                    <div class="alert alert-error col-md-24" id="MemberNameError" data-bind="
+                                        errorMessage: memberName,
+                                        childBindings: { 'iLearnMore': { attr: { 'target': '_blank', 'rel': 'noreferrer noopener' } } }"></div>
+                                
+                                <!-- /ko -->
+                            </div>
+                            <div role="alert" aria-live="assertive">
+                                <!-- ko if: config.supportsPhone !== 0 && (showError(memberName) || memberNameExistsMessage()) -->
+                                <div class="alert col-md-24 left" data-bind="text: memberNameExistsMessage"></div>
+                                <!-- /ko -->
+                            </div>
+                            <div data-bind="css: { 'form-group col-xs-24': config.showInlinePhoneCountryCode !== 0 }">
+                                <!-- ko if: config.supportsPhone !== 0 -->
+                                <div data-bind="visible: memberNameType() === 'Phone', css: { 'form-group col-xs-24': config.showInlinePhoneCountryCode === 0, 'phoneCountryBox col-xs-5': config.showInlinePhoneCountryCode !== 0 }">
+                                    <!-- ko if: config.showInlinePhoneCountryCode !== 0 -->
+                                    <label for="PhoneCountry" class="phoneCountryCode" aria-hidden="true" data-bind="text: '\u200E+' + memberNamePhoneCountryObj().code, css: { 'hasFocus': isCountryCodeDropDownFocused }"></label>
+                                    <img class="downArrow" role="presentation" data-bind="attr: { src: dropdownCaretImg }" />
+                                    <!-- /ko -->
+                                    <select class="form-control" id="PhoneCountry" name="PhoneCountry" aria-describedby="CredentialsPageTitle MemberNameError"
+                                            data-bind="options: memberNamePhoneCountries,
+                                            optionsText: 'displayValue',
+                                            value: memberNamePhoneCountryObj,
+                                            hasFocus: isCountryCodeDropDownFocused,
+                                            ariaLabel: strings.ariaLblCountryDropdown,
+                                            optionsAfterRender: setOptionData,
+                                            css: { 'phoneCountry': config.showInlinePhoneCountryCode !== 0 }"></select>
+                                </div>
+                                <!-- /ko -->
+                                <div data-bind="css: { 'form-group col-xs-24': config.showInlinePhoneCountryCode === 0, 'phoneNumber col-xs-19': config.showInlinePhoneCountryCode !== 0 && memberNameType() === 'Phone' }">
+                                    <div class="ltr_override" data-bind="css: { 'col-xs-24': (memberNamePrefill() && memberNamePrefill().length > 1) }">
+                                        <input class="ltr_override" id="MemberName" name="MemberName" autocomplete="off" aria-describedby="CredentialsPageTitle MemberNameError"
+                                                data-bind="css:
+                                                {
+                                                    'has-error': showError(memberName),
+                                                    'liveDomainInput col-xs-14': memberNameType() === 'Live',
+                                                    'form-control email-input-max-width': memberNameType() !== 'Live'
+                                                },
+                                                
+                                                    textInput: memberNameInput,
+                                                
+                                                hasFocus: memberName.focused,
+                                                ariaLabel: memberNameAriaLabel,
+                                                attr:
+                                                {
+                                                    placeholder: placeholder,
+                                                    type: memberNameInputType(),
+                                                    readonly: $B.Edge && memberName.isValidating()
+                                                },
+                                                disable: !$B.Edge && memberName.isValidating()" />
+                                        <!-- ko if: memberNameType() === 'Live' -->
+                                        <div class="liveDomainBox col-xs-10">
+                                            <label class="phoneCountryCode" aria-hidden="true"
+                                                    data-bind="css:
+                                                    {
+                                                        'hasFocus': isLiveDomainDropDownFocused,
+                                                        'readonly-border-color': $B.Edge && memberName.isValidating()
+                                                    },
+                                                    text: '@' + domain()">
+                                            </label>
+                                            <img class="liveDomainDownArrow" role="presentation" data-bind="attr: { src: dropdownCaretImg }" />
+                                            <select class="phoneCountry col-xs-24" id="LiveDomainBoxList" name="LiveDomainBoxList" aria-label="Email domain options"
+                                                data-bind="options: domains,
+                                                        value: domain,
+                                                        hasFocus: isLiveDomainDropDownFocused,
+                                                        disable: memberName.isValidating()"></select>
+                                        </div>
+                                        <!-- /ko -->
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- /ko -->
+                        <!-- ko if: config.showMojangUpgradeExp -->
+                        <div class="row">
+                            <div class="form-group col-md-24">
+                                <div role="alert" aria-live="assertive">
+                                    <!-- ko if: showCapsWarning-->
+                                    <div id="CapsWarning" class="alert-error">Your Caps Lock key is enabled.</div>
+                                    <!-- /ko -->
+                                </div>
+                                <div role="alert" aria-live="assertive">
+                                    <!-- ko if: showError(password) -->
+                                    <div id="PasswordError" class="alert alert-error" data-bind="errorMessage: password"></div>
+                                    <!-- /ko -->
+                                </div>
+                                <input class="form-control email-input-max-width" type="password" id="PasswordInput" name="PasswordInput"
+                                        data-bind="css:
+                                        {
+                                            'has-error': showError(password)
+                                        },
+                                        
+                                            textInput: password,
+                                        
+                                        hasFocus: password.focused() && !showPassword(),
+                                        event: { keyup: onPasswordKeyUp },
+                                        ariaLabel: strings.ariaLblPassword,
+                                        attr:
+                                        {
+                                            'placeholder': strings.ariaLblPassword
+                                        }" />
+                                <!-- ko if: showPasswordPeek-->
+                                <input class="form-control" type="text" id="PasswordText" aria-describedby="PasswordDesc PasswordError"
+                                        data-bind="css:
+                                        {
+                                            'has-error': showError(password)
+                                        },
+                                        
+                                            textInput: password,
+                                        
+                                        visible: showPassword(),
+                                        hasFocus: password.focused() && showPassword(),
+                                        event: { keyup: onPasswordKeyUp },
+                                        ariaLabel: strings.ariaLblPassword,
+                                        attr:
+                                        {
+                                            'placeholder': strings.ariaLblPassword
+                                        }" />
+                                <!-- /ko -->
+                            </div>
+                        </div>
+                        <!-- ko if: showPasswordPeek -->
+                        <div class="row form-group checkbox">
+                            <div class="col-md-24">
+                                <label>
+                                    <input id="ShowHidePasswordCheckbox" type="checkbox" data-bind="checked: showPassword" />
+                                    <span id="ShowHidePasswordLabel" data-bind="text: showPasswordLabel"></span>
+                                </label>
+                            </div>
+                        </div>
+                        <!-- /ko -->
+                        <!-- /ko -->
+
+                        <div class="position-buttons">
+                            <div>
+                                <!-- ko if: config.showMojangUpgradeExp -->
+                                <div class="form-group">
+                                    <a id="signIn" href="https://login.live.com" class="secondary-text">Use another account</a>
+                                </div>
+                                <!-- /ko -->
+
+                                <!-- ko if: config.showSwitch !== 0 && !showPaginatedUsernamePrefill && !config.showMojangUpgradeExp -->
+                                <!-- ko if: config.supportsPhone !== 0 -->
+                                    <div class="form-group" data-bind="visible: memberNameType() !== 'Phone'">
+                                        <a id="phoneSwitch" href="#" onclick="return false;" class="secondary-text"
+                                            data-bind="text: strings.phoneSwitch,
+                                                hasFocus: phoneSwitchFocused,
+                                                click: function () { switchMemberNameType('Phone'); }">
+                                        </a>
+                                    </div>
+                                    <!-- /ko -->
+                                    <div data-bind="visible: memberNameType() !== 'EASI',
+                                            css:
+                                            {
+                                                'form-group': (config.pwdless !== 0 && memberNameType() == 'Phone') || config.isAddUserFlow
+                                            }">
+                                        <a id="easiSwitch" href="#" onclick="return false;" class="secondary-text"
+                                            data-bind="text: strings.easiSwitch,
+                                                hasFocus: easiSwitchFocused,
+                                                click: function () { switchMemberNameType('EASI'); }">
+                                        </a>
+                                    </div>
+                                    <!-- ko if: config.showNewEmailOption !== 0 -->
+                                    <div class="form-group-last-child" data-bind="visible: memberNameType() === 'EASI'">
+                                            <a id="liveSwitch" href="#" onclick="return false;" class="secondary-text"
+                                                data-bind="text: strings.liveSwitch, click: function () { switchMemberNameType('Live'); }">
+                                            </a>
+                                    </div>
+                                    <!-- /ko -->
+                                <!-- /ko -->
+                                
+                                <!-- ko if: showLegalText -->
+                                <div id="ftrText" class="text-caption form-group"
+                                        data-bind="visible: footerViewModel.text.visible,
+                                            html: footerViewModel.strings.touPrivacyText,
+                                            css:
+                                            {
+                                            'no-margin-bottom': !footerViewModel.additionalLegalText
+                                        }">
+                                </div>
+                                <div id="ftrLegalText" class="text-caption form-group"
+                                        data-bind="visible: footerViewModel.text.visible && footerViewModel.additionalLegalText,
+                                        html: footerViewModel.additionalLegalText">
+                                </div>
+                                <!-- /ko -->
+                                <!-- ko if: config.pwdless !== 0 && memberNameType() == "Phone" -->
+                                <div id="smsdisclaimer" class="text-caption form-group" data-bind="text: footerViewModel.strings.smsDisclaimer"></div>
+                                <!-- /ko -->
+                            </div>
+                        </div>
+                    </fieldset>
+                    <div class="win-button-pin-bottom">
+                        <div data-bind="component:
+                            {
+                                name: 'signupButtons',
+                                params:
+                                {
+                                    showBackButtonOnV2: true,
+                                    isBottomMostElement: false,
+                                    showCancelButton: false
+                                }
+                            }">
+                        </div>
+                    </div>
+                </div>
+                <div id="CredentialsSuggestionsPane" data-bind="visible: showSuggestions()">
+                    <div id="SuggestionsTitle" class="row text-title" role="heading" aria-level="1" data-bind="text: strings.suggPageTitle"></div>
+                    <div class="position-buttons">
+                        <div id="Suggestions" data-bind="foreach: memberNameSuggestions">
+                            <div>
+                                <a href="#" onclick="return false;" aria-describedby="SuggestionsTitle" data-bind="text: $data, click: $parent.onPickSuggestion"></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="win-button-pin-bottom">
+                        <div class="row">
+                            <div class="button-container">
+                                <div class="inline-block col-xs-24">
+                                    <input type="button" role="button" id="iSuggCancel" onclick="return false;" class="btn btn-block"
+                                        data-bind="value: strings.backButton,
+                                            click: onSuggestionsClose,
+                                            attr: { 'title': strings.backButton }" />
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </form>
+    </div>
+        <div id="UsernameRecoverySpeedbump">
+            <form id="UsernameRecoverySpeedbumpForm" onsubmit="return false;" action="#">
+                <div class="row form-group">
+                    <div id="UsernameRecoverySpeedbumpTitle" class="row text-title" aria-level="1" role="heading" data-bind="text: strings.usernameRecoverySpeedbumpPageTitle"></div>
+                    <div id="UsernameRecoverySpeedbumpDescription" aria-level="2" class="text-body"
+                        data-bind="text: usernameRecoverySpeedbumpDesc"></div>
+                    <div id="UsernameRecoveryLink" class="text-body form-group" aria-label="Recover your Microsoft username"
+                        data-bind="html: usernameRecoverySpeedbumpRecoveryLink">
+                    </div>
+                    <div class="position-buttons">
+                        <div>
+                            <div class="form-group">
+                                <a href="#" id="iSignupAction" class="secondary-text" aria-label="Create new Microsoft account">Create the account anyway</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="win-button-pin-bottom">
+                    <div class="row">
+                        <div class="button-container">
+                            <div class="inline-block">
+                                <input type="submit" id="iProofSignIn" class="btn btn-block btn-primary" aria-describedby="UsernameRecoverySpeedbumpDescription" value="Sign in"/>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </form>
+        </div>
+        <div id="EvictionSpeedbump">
+            <form id="EvictionSpeedbumpForm" onsubmit="return false;" action="#">
+                <div class="row">
+                    <div id="EvictionSpeedbumpTitle" class="row text-title" aria-level="1" role="heading">Create account</div>
+                    <div id="EvictionSpeedbumpDesc1" class="text-body" data-bind="text: evictionSpeedbumpTopDesc"></div>
+
+                    <div id="EvictionSpeedbumpDesc2" class="text-body">If you recently got this phone number and don't have an account with us, continue to <a href="#" id="iSignupAction">sign up</a>.</div>
+
+                    <div id="EvictionSpeedbumpDesc3" class="text-body" data-bind="
+                        htmlWithBindings: evictionSpeedbumpBottomDesc,
+                        childBindings: { 'EvictionSignIn': { attr: { 'href': evictionSpeedbumpSignInUrl } } }"></div>
+                </div>
+            </form>
+        </div>
+        <div id="FedSignInSpeedbump">
+            <form id="FedSignInSpeedbumpForm" onsubmit="return false;" action="#">
+                <div class="row form-group">
+                    <div id="FedSignInSpeedbumpTitle" class="row text-title" aria-level="1" role="heading">Sign in with Google?</div>
+                    <div id="FedSignInSpeedbumpDesc" class="text-body no-margin-bottom">We'll take you to Google to verify that you own this email address. Microsoft will not see your Google password.</div>
+                </div>
+
+                <div class="position-buttons">
+                    <div>
+                        <div class="form-group">
+                            <a href="#" id="iSignupAction" class="secondary-text">Create a Microsoft account without using Google</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="win-button-pin-bottom">
+                    <div class="row">
+                        <div class="button-container no-margin-bottom">
+                            <div class="inline-block">
+                                
+                                <input type="submit" id="iFederationSignIn" class="btn btn-block btn-primary" aria-describedby="FedSignInSpeedbumpDesc" value="Next"/>
+                                
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </form>
+        </div>
+        <div id="MojangSpeedbump">
+            <form id="MojangSpeedbumpForm" onsubmit="return false;" action="#">
+                <div class="row form-group">
+                    <div id="MojangSpeedbumpTitle" class="row text-title" aria-level="1" role="heading" data-bind="text: strings.mojangSpeedbumpTitle"></div>
+                    <div id="MojangSpeedbumpDesc" class="text-body">We didn't find a Microsoft account associated with the email on your Mojang account. Let's create one now.</div>
+                    <div class="position-buttons">
+                        <div>
+                            <div class="form-group">
+                                <a id="signIn" href="https://login.live.com" class="secondary-text">Use another account</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="win-button-pin-bottom">
+                    <div class="row">
+                        <div class="button-container">
+                            <div class="inline-block">
+                                <input id="SignupCancel" class="btn btn-block" type="button" value="Cancel" />
+                            </div>
+                            <div class="inline-block">
+                                <input id="iSignupAction" class="btn btn-block btn-primary" onclick="return false;" type="submit" aria-describedby="MojangSpeedbumpTitle MojangSpeedbumpDesc" value="Next" />
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </form>
+        </div>
+        <div id="Password">
+            <form id="PasswordForm" onsubmit="return false;" action="#">
+                <div id="PasswordTitle" class="row text-title" role="heading" aria-level="1" data-bind="text: strings.passwordPageTitle"></div>
+                <div id="PasswordDesc" class="text-body" data-bind="text: strings.passwordPageDesc"></div>
+                <div class="row form-group">
+                    <div class="col-md-24">
+                        <div role="alert" aria-live="assertive">
+                            <!-- ko if: showCapsWarning-->
+                            <div id="CapsWarning" class="alert-error">Your Caps Lock key is enabled.</div>
+                            <!-- /ko -->
+                        </div>
+                        <div role="alert" aria-live="assertive">
+                            <!-- ko if: showError(password) -->
+                            <div id="PasswordError" class="alert alert-error" data-bind="errorMessage: password"></div>
+                            <!-- /ko -->
+                        </div>
+                        <input type="text" data-bind="value: hiddenMemberName" style="display:none"/>
+                        <input class="form-control email-input-max-width" type="password" id="PasswordInput" name="Password" aria-describedby="PasswordDesc PasswordError"
+                                data-bind="css:
+                                {
+                                    'has-error': showError(password)
+                                },
+                                
+                                  textInput: password,
+                                
+                                hasFocus: password.focused() && !showPassword(),
+                                moveOffScreen: showPassword(),
+                                event: { keyup: onPasswordKeyUp },
+                                ariaLabel: strings.ariaLblPassword,
+                                attr:
+                                {
+                                    'placeholder': strings.ariaLblPassword
+                                }" />
+
+                        <!-- ko if: showPasswordPeek-->
+                        <input class="form-control" type="text" id="PasswordText" aria-describedby="PasswordDesc PasswordError"
+                                data-bind="css:
+                                {
+                                    'has-error': showError(password)
+                                },
+                                
+                                    textInput: password,
+                                
+                                visible: showPassword(),
+                                hasFocus: password.focused() && showPassword(),
+                                event: { keyup: onPasswordKeyUp },
+                                ariaLabel: strings.ariaLblPassword,
+                                attr:
+                                {
+                                    'placeholder': strings.ariaLblPassword
+                                }" />
+                        <!-- /ko -->
+                    </div>
+                </div>
+                <!-- ko if: showPasswordPeek -->
+                <div class="row form-group checkbox">
+                    <div class="col-md-24">
+                        <label>
+                            <input id="ShowHidePasswordCheckbox" type="checkbox" data-bind="checked: showPassword" />
+                            <span id="ShowHidePasswordLabel" data-bind="text: showPasswordLabel"></span>
+                        </label>
+                    </div>
+                </div>
+                <!-- /ko -->
+                <!-- ko if: config.isMojangUpgrade -->
+                <div class="form-group">
+                    <a id="signIn" href="https://login.live.com" class="secondary-text">Use another account</a>
+                </div>
+                <!-- /ko -->
+                <!-- ko if: showMarketingOptIn -->
+                <div class="row form-group checkbox">
+                    <div class="col-md-24">
+                        <label>
+                            <input type="checkbox" id="iOptinEmail" data-bind="checked: optinEmailCheckbox" />
+                            <span>I would like information, tips, and offers about Microsoft products and services.</span>
+                        </label>
+                    </div>
+                </div>
+                <!-- /ko -->
+
+                <div class="position-buttons">
+                    <div>
+                        <!-- ko if: shouldShowSmsDisclaimer -->
+                        <div id="smsdisclaimer" class="text-caption form-group" data-bind="text: strings.smsDisclaimer"></div>
+                        <!-- /ko -->
+                        <!-- ko if: showLegalText -->
+                        <div id="ftrText" class="text-caption form-group"
+                                data-bind="html: footerViewModel.strings.touPrivacyText,
+                                css:
+                                {
+                                    'no-margin-bottom': !footerViewModel.additionalLegalText
+                                }">
+                        </div>
+                        <div id="ftrLegalText" class="text-caption form-group"
+                                data-bind="visible: footerViewModel.additionalLegalText,
+                                html: footerViewModel.additionalLegalText">
+                        </div>
+                        <!-- /ko -->
+                    </div>
+                </div>
+                <div class="win-button-pin-bottom" data-bind="component: 'signupButtons'"></div>
+            </form>
+        </div>
+        <div id="Verification">
+            <form id="VerificationForm" onsubmit="return false;" action="#">
+                <div id="AutoVerification" data-bind="visible: showAutoVerificationUI()">
+                    <div class="row text-title" role="heading" aria-level="1" data-bind="text: strings.autoVerifyPageTitle"></div>
+                    <div class="text-body" data-bind="text: strings.autoVerifyPageDescription"></div>
+                    <!-- ko if: config.showProgress !== 0 -->
+                    <div class="row">
+                        <h2 class="col-md-24">
+                            <img data-bind="attr:
+                                    {
+                                        'alt': strings.sendingOTT,
+                                        'src': $Utility.generateUrl(config.imgs.baseUrl, config.imgs.progressIndicator, false)
+                                    }" />
+                        </h2>
+                    </div>
+                    <!-- /ko -->
+                </div>
+                <div data-bind="visible: !showAutoVerificationUI()">
+                    <div id="verificationTitle" class="row text-title" role="heading" aria-level="1" data-bind="text: verifyPageTitle"></div>
+                    <p class="row" id="verificationDesc" data-bind="html: verificationSubTitle"></p>
+                    <div class="row">
+                        <div class="col-md-24 form-group" data-bind="css: { 'no-margin-bottom': showSmsResendCodeText }">
+                            <div role="alert" aria-live="assertive">
+                                <!-- ko if: showError(verification) -->
+                                <div id="VerificationCodeError" class="alert alert-error" data-bind="errorMessage: verification"></div>
+                                <!-- /ko -->
+                            </div>
+                            <input type="tel" class="form-control email-input-max-width" id="VerificationCode" name="VerificationCode" autocomplete="off" aria-describedby="verificationTitle verificationDesc VerificationCodeError"
+                                    data-bind="attr:
+                                    {
+                                        'placeholder': strings.lblVerificationCode
+                                    },
+                                    
+                                      textInput: verification,
+                                    
+                                    hasFocus: verification.focused,
+                                    ariaLabel: strings.lblVerificationCode,
+                                    css:
+                                    {
+                                        'has-error': showError(verification)
+                                    }" />
+                        </div>
+                    </div>
+                </div>
+                <!-- ko if: showSmsResendCodeText -->
+                <div class="row text-caption resend-code">
+                    <div id="resendCodeText" data-bind="visible: false, html: strings.resendCodeText"></div>
+                </div>
+                <!-- /ko -->
+                <!-- ko if: !config.fedStateToken && showMarketingOptIn -->
+                <div class="row">
+                    <div class="checkbox">
+                        <label>
+                            <input type="checkbox" id="iOptinEmail" data-bind="checked: optinEmailCheckbox" />
+                            <span>I would like information, tips, and offers about Microsoft products and services.</span>
+                        </label>
+                    </div>
+                </div>
+                <!-- /ko -->
+
+                <div class="position-buttons">
+                    <div>
+                        <!-- ko if: showLegalText -->
+                        <div id="ftrText" class="text-caption form-group"
+                                data-bind="visible: footerViewModel.text.visible,
+                                html: footerViewModel.strings.touPrivacyText,
+                                css:
+                                {
+                                    'no-margin-bottom': !footerViewModel.additionalLegalText
+                                }">
+                        </div>
+                        <div id="ftrLegalText" class="text-caption form-group"
+                                data-bind="visible: footerViewModel.text.visible && footerViewModel.additionalLegalText,
+                                html: footerViewModel.additionalLegalText">
+                        </div>
+                        <!-- /ko -->
+                    </div>
+                </div>
+                <div class="win-button-pin-bottom" data-bind="component: 'signupButtons'"></div>
+            </form>
+        </div>
+        <div id="FedPicker">
+            <form id="FedPickerForm" onsubmit="return false;" action="#">
+                <div id="FedPickerPageTitle" class="row text-title" role="heading" aria-level="1" data-bind="text: strings.fedPickerPageTitle"></div>
+                <div id="FedPickerPageDesc" class="text-body" data-bind="text: strings.fedPickerPageDesc"></div>
+                <div class="form-group" role="list">
+                    <!-- ko foreach: { data: fedNamesPrefill, as: 'fedNamePrefill' } -->
+                    <div class="tile-container">
+                        <div class="row tile">
+                            <div class="table" tabindex="0" role="listitem" data-bind="
+                                event: { 'click': $parent.onPrefillClicked, 'keydown': $parent.onPrefillKeyDown },
+                                ariaLabel: fedNamePrefill.name,
+                                ariaDescribedBy: $index() === 0 ? 'FedPickerPageTitle FedPickerPageDesc' : null,
+                                attr: {
+                                    'autofocus': $index() === 0 ? 'autofocus' : null },
+                                hasFocus: $index() === 0">
+
+                                <div class="table-cell tile-img">
+                                    <div>
+                                        <img class="tile-img" role="presentation" data-bind="attr: { src: $parent.fedProviderLogoImg }" />
+                                    </div>
+                                </div>
+                                <div class="table-cell text-left content">
+                                    <div data-bind="text: fedNamePrefill.name"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- /ko -->
+                </div>
+                <div class="position-buttons">
+                    <div>
+                        <div class="form-group">
+                            <a id="useOtherEmail" href="#" class="secondary-text" data-bind="text: strings.fedPickerUseOther, click: onUseOtherClick"></a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- ko if: footerViewModel.buttons.backButton.visible -->
+                <div class="win-button-pin-bottom" data-bind="component: { name: 'signupButtons', params: { isBottomMostElement: true, showBackButtonOnV2: true, showCancelButton: false } }"></div>
+                <!-- /ko -->
+            </form>
+        </div>
+        <div id="FedConfirm">
+            <form id="FedConfirmForm" onsubmit="return false;" action="#">
+                <div class="row text-title" role="heading" aria-level="1" data-bind="text: strings.fedConfirmPageTitle"></div>
+                <div class="text-body" data-bind="html: fedConfirmPageDesc"></div>
+
+                <!-- ko if: fedConfirmPageDesc2 -->
+                <div class="text-body" data-bind="html: fedConfirmPageDesc2"></div>
+                <!-- /ko -->
+
+                <div class="position-buttons">
+                    <div>
+                        <div id="ftrText" class="text-caption form-group" data-bind="
+                            visible: footerViewModel.text.visible,
+                            html: footerViewModel.strings.touPrivacyText,
+                            css:
+                                {
+                                    'no-margin-bottom': !footerViewModel.additionalLegalText
+                                }">
+                        </div>
+                        <div id="ftrLegalText" class="text-caption form-group" data-bind="
+                            visible: footerViewModel.text.visible && footerViewModel.additionalLegalText,
+                            html: footerViewModel.additionalLegalText">
+                        </div>
+                    </div>
+                </div>
+                <div class="win-button-pin-bottom" data-bind="component: { name: 'signupButtons', params: { isBottomMostElement: true, showBackButtonOnV2: false, showCancelButton: false } }"></div>
+            </form>
+        </div>
+        <!-- ko if: config.collectFLName !== 0 -->
+        <div id="ProfileAccrual">
+            <form id="ProfileAccrualForm" onsubmit="return false;" action="#">
+                <div id="ProfileAccrualInputPane">
+                    <div id="iPageTitle" class="row text-title" role="heading" aria-level="1" data-bind="text: strings.profileAccrualPageTitle"></div>
+                    <div id="ProfileAccrualDesc" class="text-body" data-bind="visible: config.showProfileDesc !== 0, text: strings.profileAccrualPageDescription"></div>
+                    <div class="row">
+                        <!-- ko if: config.isFLOrder !== 0 -->
+                        <div class="form-group col-md-24">
+                            <div role="alert" aria-live="assertive">
+                                <!-- ko if: showError(firstName) -->
+                                <div id="ProfileAccrualError" class="alert alert-error" data-bind="errorMessage: firstName"></div>
+                                <!-- /ko -->
+                            </div>
+                            <input type="text" id="FirstName" class="form-control" name="FirstName" aria-describedby="iPageTitle ProfileAccrualDesc ProfileAccrualError" aria-required="true"
+                                   data-bind="
+                                       
+                                          textInput: firstName,
+                                       
+                                       css:
+                                       {
+                                            'has-error': showError(firstName)
+                                       },
+                                       hasFocus: firstName.focused,
+                                       ariaLabel: strings.lblFirstName,
+                                       attr:
+                                       {
+                                            'placeholder': strings.lblFirstName
+                                       }" />
+                        </div>
+                        <div class="form-group col-md-24">
+                            <div role="alert" aria-live="assertive">
+                                <!-- ko if: showError(lastName) -->
+                                <div id="LastNameError" class="alert alert-error" data-bind="errorMessage: lastName"></div>
+                                <!-- /ko -->
+                            </div>
+                            <input type="text" id="LastName" class="form-control" name="LastName" aria-describedby="LastNameError" aria-required="true"
+                                   data-bind="
+                                       
+                                          textInput: lastName,
+                                       
+                                       hasFocus: lastName.focused,
+                                       css:
+                                       {
+                                            'has-error': showError(lastName)
+                                       },
+                                       ariaLabel: strings.lblLastName,
+                                       attr:
+                                       {
+                                            'placeholder': strings.lblLastName
+                                       }" />
+                        </div>
+                        <!-- /ko -->
+                        <!-- ko ifnot: config.isFLOrder !== 0 -->
+                        <div class="form-group col-md-24">
+                            <div role="alert" aria-live="assertive">
+                                <!-- ko if: showError(lastName) -->
+                                <div id="ProfileAccrualError" class="alert alert-error" data-bind="errorMessage: lastName"></div>
+                                <!-- /ko -->
+                            </div>
+                            <input type="text" id="LastName" class="form-control" name="LastName" aria-describedby="iPageTitle ProfileAccrualDesc ProfileAccrualError" aria-required="true"
+                                   data-bind="
+                                       
+                                          textInput: lastName,
+                                       
+                                       hasFocus: lastName.focused,
+                                       css:
+                                       {
+                                            'has-error': showError(lastName)
+                                       },
+                                       attr:
+                                       {
+                                            'placeholder': strings.lblLastName
+                                       }" />
+                        </div>
+                        <div class="form-group col-md-24">
+                            <div role="alert" aria-live="assertive">
+                                <!-- ko if: showError(firstName) -->
+                                <div id="FirstNameError" class="alert alert-error" data-bind="errorMessage: firstName"></div>
+                                <!-- /ko -->
+                            </div>
+                            <input type="text" id="FirstName" class="form-control" name="FirstName" aria-describedby="FirstNameError" aria-required="true"
+                                   data-bind="
+                                       
+                                           textInput: firstName,
+                                       
+                                       css:
+                                       {
+                                            'has-error': showError(firstName)
+                                       },
+                                       hasFocus: firstName.focused,
+                                       attr:
+                                       {
+                                            'placeholder': strings.lblFirstName
+                                       }" />
+                        </div>
+                        <!-- /ko -->
+                    </div>
+
+                    <div class="position-buttons"><div></div></div>
+                </div>
+                <div class="win-button-pin-bottom"
+                    data-bind="component:
+                    {
+                        name: 'signupButtons',
+                        params:
+                        {
+                            isBottomMostElement: true,
+                            showBackButtonOnV2: false,
+                            showCancelButton: false
+                        }
+                    }">
+                </div>
+            </form>
+        </div>
+        <!-- /ko -->
+        <!-- ko if: config.collectDob !== 0 -->
+        <div id="BirthDateCountryAccrual">
+            <form id="BirthDateCountryAccrualForm" onsubmit="return false;" action="#">
+                <div id="BirthDateCountryAccrualInputPane">
+                    <div id="iPageTitle" class="row text-title" role="heading" aria-level="1" data-bind="text: strings.birthdatePageTitle"></div>
+                    <div class="text-body" id="BirthDateCountryDesc"
+                         data-bind="visible: config.showBirthdateDesc !== 0,
+                         text: strings.birthdatePageDescription">
+                    </div>
+                    <div class="row">
+                        <div class="form-group col-md-24 left">
+                            <label class="text-base" for="Country" data-bind="text: strings.lblCountryRegion"></label>
+                            <select id="Country" class="form-control" name="Country"
+                                    data-bind="options: countries,
+                                        optionsValue: 'iso',
+                                        optionsText: 'name',
+                                        value: country,
+                                        ariaDescribedBy: 'iPageTitle BirthDateCountryDesc'">
+                            </select>
+                        </div>
+                    </div>
+                    <div class="row" data-bind="visible: showBirthDate">
+                        <div class="col-md-24 left">
+                            <label id="BirthDateLabel" class="text-base no-margin-top-bottom" data-bind="text: strings.lblBirthdate"></label>
+                        </div>
+                        <div role="alert" aria-live="assertive" id="BirthDateError">
+                            <!-- ko if: showError(birthdate) -->
+                            <div class="alert alert-error col-md-24" data-bind="errorMessage: birthdate"></div>
+                            <!-- /ko -->
+                        </div>
+                        <div class="form-group form-control force-padding">
+                            <div class="col-xs-8 form-group" data-bind="attr: { 'id': config.datePartString0 + 'Container' }">
+                                <!-- ko if: config.shouldShowInputYear && config.dateOrder.toUpperCase()[0] === 'Y' -->
+                                <input type="number" max="2021" min="1905" class="form-control"
+                                    aria-describedby="BirthDateError" aria-required="true" placeholder="Year"
+                                   data-bind="
+                                       textInput: birthYear,
+                                       attr:
+                                       {
+                                           'id': config.datePartString0,
+                                           'name': config.datePartString0
+                                       }" />
+                                <!-- /ko -->
+                                <!-- ko ifnot: (config.shouldShowInputYear && config.dateOrder.toUpperCase()[0] === 'Y') -->
+                                <select class="datepart0 form-control" aria-describedby="BirthDateError"
+                                        data-bind="options: datePartOptions0,
+                                            optionsText: 'text',
+                                            optionsValue: 'value',
+                                            value: birthdateParts[0],
+                                            hasFocus: birthdate.focused,
+                                            ariaLabel: config.datePartLabel0,
+                                            attr:
+                                            {
+                                                'id': config.datePartString0,
+                                                'name': config.datePartString0
+                                            }">
+                                </select>
+                                <!-- /ko -->
+                            </div>
+                            <div class="col-xs-8 form-group" data-bind="attr: { 'id': config.datePartString1 + 'Container' }">
+                                <!-- ko if: config.shouldShowInputYear && config.dateOrder.toUpperCase()[1] === 'Y' -->
+                                <input type="number" max="2021" min="1905" class="form-control"
+                                    aria-describedby="BirthDateError" aria-required="true" placeholder="Year"
+                                   data-bind="
+                                       textInput: birthYear,
+                                       attr:
+                                       {
+                                           'id': config.datePartString1,
+                                           'name': config.datePartString1
+                                       }" />
+                                <!-- /ko -->
+                                <!-- ko ifnot: (config.shouldShowInputYear && config.dateOrder.toUpperCase()[1] === 'Y') -->
+                                <select class="datepart1 form-control" aria-describedby="BirthDateError"
+                                        data-bind="options: datePartOptions1,
+                                            optionsText: 'text',
+                                            optionsValue: 'value',
+                                            value: birthdateParts[1],
+                                            ariaLabel: config.datePartLabel1,
+                                            attr:
+                                            {
+                                                'id': config.datePartString1,
+                                                'name': config.datePartString1
+                                            }">
+                                </select>
+                                <!-- /ko -->
+                            </div>
+                            <div class="col-xs-8 form-group" data-bind="attr: { 'id': config.datePartString2 + 'Container' }">
+                                <!-- ko if: config.shouldShowInputYear && config.dateOrder.toUpperCase()[2] === 'Y' -->
+                                <input type="number" max="2021" min="1905" class="form-control"
+                                    aria-describedby="BirthDateError" aria-required="true" placeholder="Year"
+                                    data-bind="
+                                       textInput: birthYear,
+                                       attr:
+                                       {
+                                           'id': config.datePartString2,
+                                           'name': config.datePartString2
+                                       }" />
+                                <!-- /ko -->
+                                <!-- ko ifnot: (config.shouldShowInputYear && config.dateOrder.toUpperCase()[2] === 'Y') -->
+                                <select class="datepart2 form-control" aria-describedby="BirthDateError"
+                                        data-bind="options: datePartOptions2,
+                                            optionsText: 'text',
+                                            optionsValue: 'value',
+                                            value: birthdateParts[2],
+                                            ariaLabel: config.datePartLabel2,
+                                            attr:
+                                            {
+                                                'id': config.datePartString2,
+                                                'name': config.datePartString2
+                                            }">
+                                </select>
+                                <!-- /ko -->
+                            </div>
+                        </div>
+                    </div>
+                    <div class="position-buttons">
+                        <div>
+                            <!-- ko if: config.isMojangUpgrade -->
+                            <div id="ftrText" class="text-caption form-group"
+                                    data-bind="visible: footerViewModel.text.visible,
+                                    html: footerViewModel.strings.touPrivacyText,
+                                    css:
+                                    {
+                                        'no-margin-bottom': !footerViewModel.additionalLegalText
+                                    }">
+                            </div>
+                            <div id="ftrLegalText" class="text-caption form-group"
+                                    data-bind="visible: footerViewModel.text.visible && footerViewModel.additionalLegalText,
+                                    html: footerViewModel.additionalLegalText">
+                            </div>
+                            <!-- /ko -->
+                        </div>
+                    </div>
+                    <div class="win-button-pin-bottom"
+                        data-bind="component:
+                        {
+                            name: 'signupButtons',
+                            params:
+                            {
+                                isBottomMostElement: true,
+                                showBackButtonOnV2: false,
+                                showCancelButton: config.isMojangUpgrade
+                            }
+                        }">
+                    </div>
+                </div>
+            </form>
+        </div>
+        <!-- /ko -->
+        <div id="MemberNameTakenLearnMore">
+            <div class="col-md-24 text-body" data-bind="text: strings.hostedMemberNameTakenPhoneLearnMore"></div>
+            <div class="win-button-pin-bottom"
+                data-bind="component:
+                {
+                    name: 'signupButtons',
+                    params:
+                    {
+                        isBottomMostElement: true,
+                        showBackButtonOnV2: false,
+                        showCancelButton: false
+                    }
+                }">
+            </div>
+        </div>
+        <div id="HipPane">
+            <form id="HipPaneForm" onsubmit="return false;" action="#">
+                
+
+<div id="progressBarContent" style="display:none;"></div>
+                <div class="text-title forSmsHip hide" role="heading" aria-level="1" data-bind="text: strings.hipHeading"></div>
+                <div class="text-title forVisualHip hide" role="heading" aria-level="1" data-bind="text: strings.hipPageTitle"></div>
+                <div class="row" id="hipDesc">
+                    <div class="forSmsHip hide" data-bind="text: strings.hipPageDescription"></div>
+                    <div class="text-body forSmsHip hide" data-bind="text: strings.hipPageDescription1"></div>
+                    <div class="forVisualHip hide" data-bind="text: strings.hipVisualDescription"></div>
+                </div>
+                <div class="row" id="hipTemplateContainer"></div>
+                <div class="position-buttons"><div></div></div>
+                <div class="win-button-pin-bottom"
+                    data-bind="component:
+                    {
+                        name: 'signupButtons',
+                        params:
+                        {
+                            isBottomMostElement: true,
+                            showBackButtonOnV2: false,
+                            showCancelButton: false
+                        }
+                    }">
+                </div>
+            </form>
+        </div>
+        <div id="HipEnforcement">
+            <form id="HipEnforcementForm" onsubmit="return false;" action="#">
+                <div class="text-title forVisualHip hide" role="heading" aria-level="1" data-bind="text: strings.hipPageTitle"></div>
+                
+
+<div id="progressBarContent" style="display:none;"></div>
+                <div class="row" id="hipEnforcementContainer"></div>
+            </form>
+        </div>
+        <div id="EvictionError">
+            <div id="ErrorTitle" class="row text-title" role="heading" aria-level="1">You already have an account</div>
+
+            <div id="ErrorDesc" class="row form-group text-body" data-bind="
+                htmlWithBindings: evictionSpeedbumpErrorPageDescription,
+                childBindings: { 'signInButton': { 'css': { 'bold': true } } }"></div>
+
+            <div class="position-buttons"><div></div></div>
+
+            <div class="win-button-pin-bottom">
+                <div class="row">
+                    <div class="button-container no-margin-bottom">
+                        <div class="inline-block">
+                            <input type="submit" id="EvictionNext" class="btn btn-block btn-primary"
+                                aria-describedby="ErrorTitle ErrorDesc"
+                                value="Next"/>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="ChildBlocked">
+            <form id="ChildBlockedForm" onsubmit="return false;" action="#">
+                <div id="ChildBlockedTitle" class="row text-title" aria-level="1" role="heading">Whoops! We can't complete this upgrade right now</div>
+                <div id="ChildBlockedDesc" class="text-body no-margin-bottom">Try again soon. Sorry about that. You can still play Minecraft as usual.</div>
+                <div class="position-buttons"><div></div></div>
+                <div class="win-button-pin-bottom">
+                    <div class="row">
+                        <div class="button-container no-margin-bottom">
+                            <div class="inline-block">
+                                <input type="submit" id="ChildBlockedAction" class="btn btn-block btn-primary" aria-describedby="ChildBlockedTitle ChildBlockedDesc" value="OK"/>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </form>
+        </div>
+        <div id="UpgradeChildSpeedbump">
+            <form id="UpgradeChildSpeedbumpForm" onsubmit="return false;" action="#">
+                <div id="UpgradeChildSpeedbumpTitle" class="row text-title" aria-level="1" role="heading">You're going to need a parent for this</div>
+                <img id="UpgradeChildSpeedbumpImg" role="presentation" class="parentChildImg" />
+                <div id="UpgradeChildSpeedbumpDesc" class="text-body">Because you're upgrading to a new account, we need to make sure that your parent helps you set it up correctly.</div>
+                <div class="position-buttons"><div></div></div>
+                <div class="win-button-pin-bottom">
+                    <div class="row">
+                        <div class="button-container">
+                            <div class="inline-block">
+                                <input id="UpgradeChildSpeedbumpCancel" class="btn btn-block" type="button" value="Cancel" />
+                            </div>
+                            <div class="inline-block">
+                                <input id="UpgradeChildSpeedbumpAction" class="btn btn-block btn-primary" type="submit" aria-describedby="UpgradeChildSpeedbumpTitle UpgradeChildSpeedbumpDesc" value="Next" />
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </form>
+        </div>
+        <div id="TOUPrivacy">
+            <form id="TOUPrivacyForm" onsubmit="return false;" action="#">
+                
+                <input type="button" role="button" onclick="OnBack();" class="btn btn-block hidden" id="touBackBtn" aria-describedby="TOUPrivacyDiv"
+                       data-bind="value: strings.backButton,
+                           attr:
+                           {
+                                'title': strings.backButton
+                           }" />
+                
+                <pre id="TOUPrivacyDiv" role="alert" style="white-space: pre-wrap; overflow: visible;"></pre>
+                <div class="win-button-pin-bottom"
+                    data-bind="component:
+                    {
+                        name: 'signupButtons',
+                        params:
+                        {
+                            isBottomMostElement: true,
+                            showBackButtonOnV2: false,
+                            showCancelButton: false
+                        }
+                    }">
+                </div>
+            </form>
+        </div>
+        <div id="Impressum">
+            <form id="ImpressumForm" onsubmit="return false;" action="#">
+                <div class="text-body" data-bind="text: strings.impressumDesc || ''"></div>
+                <div class="win-button-pin-bottom"
+                    data-bind="component:
+                    {
+                        name: 'signupButtons',
+                        params:
+                        {
+                            isBottomMostElement: true,
+                            showBackButtonOnV2: false,
+                            showCancelButton: false
+                        }
+                    }">
+                </div>
+            </form>
+        </div>
+        <div id="Blocked">
+            <div class="row text-title" role="heading" aria-level="1" data-bind="text: strings.accountProduct"></div>
+            <div class="row form-group text-body" data-bind="text: strings.throttled"></div>
+            <div class="position-buttons"><div></div></div>
+            <div class="win-button-pin-bottom">
+                <div class="row">
+                    <div class="button-container">
+                        <div class="inline-block" data-bind="visible: config.noAuthCancel === 0">
+                            <input id="BlockedCancel" class="btn btn-block" type="button" value="Cancel" />
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+            </div>
+        
+                    
+                    <!--tou/privacy-->
+                    <div id="iHostInline" class="Hide">
+                        
+                        <div class="btn-group">
+                            <div class="col-xs-24">
+                                <input type="button" autofocus onclick="HOSTUI.evt_inlineBack_onclick();" class="btn btn-block btn-primary" id="iHostInlineCancel" value='Back' />
+                            </div>
+                        </div>
+                        
+                        <pre id="iPriv" class="text-block-body pre-wrap-format" style="display: none">
+                            Please wait
+                        </pre>
+                        <pre id="iTOU" class="text-block-body pre-wrap-format" style="display: none">
+                            Please wait
+                        </pre>
+                        <div id="iImpressum" class="text-block-body" style="display: none">
+                            Please wait
+                        </div>
+                        
+                        <div class="btn-group">
+                            <div class="col-xs-24">
+                                <input type="button" onclick="HOSTUI.evt_inlineBack_onclick();" class="btn btn-block btn-primary" id="iHostInlineCancel2" value='Back' />
+                            </div>
+                        </div>
+                        
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- footer -->
+        
+        <div id="footer" class="footer
+            default" role="contentinfo">
+            <div class="footerNode text-secondary">
+                <a target="_blank" rel="noreferrer noopener" id="terms" href="https://www.microsoft.com/en-us/servicesagreement/default.aspx">Terms of Use</a> <a target="_blank" rel="noreferrer noopener" id="privacy" href="https://go.microsoft.com/fwlink/?LinkID=521839">Privacy & Cookies</a>
+                
+            </div>
+        </div>
+        
+    </div>
+</div>
+
+
+
+
+            
+        </div>
+    </div></div><script type="text/javascript">//<![CDATA[
+var w=window;w.Telemetry=w.Telemetry||{},w.Telemetry.EClientEvent={"Account_Signup_SwitchSignupType":1e4,"Account_Signup_MemberName_ValidationError":10001,"Account_ResetPW_SeeMoreVerificationOptions":11e3,"Account_ResetPW_SelectedVerificationOption":11001,"Account_ResetPW_OTT_ValidationError":11002,"Account_ResetPW_SeeMoreSecondaryAction":11003,"Account_Signup_Phone":11004,"Account_Signup_EASI":11005,"Account_Signup_Live":11006,"Account_DeviceFingerPrinting_Iframe_Load":11007},!function(t,e){"object"==typeof exports&&"object"==typeof module?module.exports=e():"function"==typeof define&&define.amd?define([],e):"object"==typeof exports?exports.Telemetry=e():(t.Microsoft=t.Microsoft||{},t.Microsoft.Identity=t.Microsoft.Identity||{},t.Microsoft.Identity.UX=t.Microsoft.Identity.UX||{},t.Microsoft.Identity.UX.Telemetry=e())
+}(window,function(){return function(t){function e(i){if(n[i]){return n[i].exports}var r=n[i]={"i":i,"l":!1,"exports":{}};return t[i].call(r.exports,r,r.exports,e),r.l=!0,r.exports}var n={};return e.m=t,e.c=n,e.d=function(t,n,i){e.o(t,n)||Object.defineProperty(t,n,{"enumerable":!0,"get":i})},e.r=function(t){"undefined"!=typeof Symbol&&Symbol.toStringTag&&Object.defineProperty(t,Symbol.toStringTag,{"value":"Module"}),Object.defineProperty(t,"__esModule",{"value":!0})},e.t=function(t,n){if(1&n&&(t=e(t)),8&n){return t
+}if(4&n&&"object"==typeof t&&t&&t.__esModule){return t}var i=Object.create(null);if(e.r(i),Object.defineProperty(i,"default",{"enumerable":!0,"value":t}),2&n&&"string"!=typeof t){for(var r in t){e.d(i,r,function(e){return t[e]}.bind(null,r))}}return i},e.n=function(t){var n=t&&t.__esModule?function(){return t["default"]}:function(){return t};return e.d(n,"a",n),n},e.o=function(t,e){return Object.prototype.hasOwnProperty.call(t,e)},e.p="",e(e.s=3)}([function(t){t.exports=function(){return""}},function(t,e){var n;
+!function(t){t.AddListener=function(t,e,n){if(t&&"function"==typeof t.addEventListener){t.addEventListener(e,n)}else{if(!t||!t.attachEvent){throw"Browser supports neither addEventListener nor attachEvent"}t.attachEvent("on"+e,n)}},t.GenerateGUID=function(){return"xxxxxxxx-xxxx-4xxx-yxxx-xxxxxxxxxxxx".replace(/[xy]/g,function(t){var e,n,i=(e=0,n=16,Math.floor(Math.random()*Math.floor(n-e))+e);return"y"===t&&(i&=11),i.toString(16)})},Object.keys||(Object.keys=function(){"use strict";var t=Object.prototype.hasOwnProperty,e=!{"toString":null}.propertyIsEnumerable("toString"),n=["toString","toLocaleString","valueOf","hasOwnProperty","isPrototypeOf","propertyIsEnumerable","constructor"],i=n.length;
+return function(r){if("function"!=typeof r&&("object"!=typeof r||null===r)){throw new TypeError("Object.keys called on non-object")}var o,s,a=[];for(o in r){t.call(r,o)&&a.push(o)}if(e){for(s=0;i>s;s++){t.call(r,n[s])&&a.push(n[s])}}return a}}()),Array.prototype.indexOf||(Array.prototype.indexOf=function(t,e){if(null==this){throw new TypeError("'this' is null or not defined")}var n=this.length>>>0;for(e=+e||0,Math.abs(e)===1/0&&(e=0),0>e&&(e+=n)<0&&(e=0);n>e;e++){if(this[e]===t){return e}}return-1})}(n||(n={})),e.AddListener=n.AddListener,e.GenerateGUID=n.GenerateGUID
+},function(t,e,n){var i;!function(t){var e=n(1),i=n(0),r=n(0),o=window,s=function(){function t(t){this._preSendHandlers=[],this._eventProvider=t}return t.prototype.initialize=function(t){return this._eventApiConfig=t,this._eventDict={},this._eventProvider.initialize(t)},t.prototype.set=function(t,e,n){void 0===n&&(n="data"),void 0===this._eventDict[n]&&(this._eventDict[n]={}),null!=e&&(this._eventDict[n][t]=e)},t.prototype.get=function(t,e){return void 0===e&&(e="data"),this._eventDict[e][t]},t.prototype.hasEvents=function(){return this._numEvents()>0
+},t.prototype.hasEvent=function(t,e){return void 0===e&&(e="data"),void 0!==this._eventDict[e][t]},t.prototype.clear=function(){this._eventDict={}},t.prototype.post=function(t,e){for(var n=0,i=this._preSendHandlers;n<i.length;n++){i[n](e)}if(this.hasEvents()){var r=[];if(t){var o=this._eventDict.data;delete this._eventDict.data,r=[o,this._eventDict.cloud,this._eventDict.app],this.validKeysPresent(r)&&this._eventProvider.post({"name":t,"data":o,"ext":this._eventDict})}else{r=[this._eventDict.cloud,this._eventDict.app],this.validKeysPresent(r)&&this._eventProvider.post(this._eventDict)
+}this.clear()}},t.prototype.validKeysPresent=function(t){for(var e=/^\w+$/,n=0;n<t.length;n++){for(var i in t[n]){if(t[n].hasOwnProperty(i)&&!e.test(i)){return!1}}}return!0},t.prototype.addPreSendHandler=function(t,e){this._preSendHandlers.push(function(n){t(e,n)})},t.prototype._numEvents=function(){return Object.keys(this._eventDict).length},t}();t.EventApi=s;var a=function(){function t(){this._iduxProviderUrl="https://az416426.vo.msecnd.net/scripts/c/ms.analytics-web-2.min.js",this._isAppInsightsLoaded=!1,this._pendingEventQueue=[]
+}return t.prototype.initialize=function(t){var n=this,i=this;return this._args=t,o.Telemetry.appInsights?(i._isAppInsightsLoaded=!0,!0):(i._checkIfOneDsScriptExists(this._args.providerUrl)?i._initializeAppInsights():e.AddListener(o,"load",function(){var t=o.document.createElement("script");t.src=n._args.providerUrl||n._iduxProviderUrl,t.type="text/javascript",e.AddListener(t,"load",function(){i._initializeAppInsights()}),o.document.body.appendChild(t)}),!0)},t.prototype.post=function(t){this._isAppInsightsLoaded?this._postToAppInsights([t]):this._pendingEventQueue.push(t)
+},t.prototype._postToAppInsights=function(t){for(var e=0,n=t;e<n.length;e++){var i=n[e];this._isAppInsightsManager(o.Telemetry.appInsights)?(this._appInsights||(this._appInsights=o.Telemetry.appInsights.newInst(this._args.appInsightsConfig.instrumentationKey,[],[])),this._appInsights.track(i)):o.Telemetry.appInsights.track(i)}},t.prototype._initializeAppInsights=function(){o.Telemetry.appInsights||(o.Telemetry.appInsights=this._args.appInsightObject?this._args.appInsightObject:this._createAppInsightsCore(this._args.appInsightsConfig.instrumentationKey)),this._isAppInsightsLoaded=!0,this._pendingEventQueue.length>0&&this._postToAppInsights(this._pendingEventQueue)
+},t.prototype._checkIfOneDsScriptExists=function(t){if(!t){return!0}for(var e=document.getElementsByTagName("script"),n=0;n<e.length;n++){if(e[n].src===t){return!0}}return!1},t.prototype._isAppInsightsManager=function(t){return"function"==typeof t.newInst},t.prototype._createAppInsightsCore=function(t){var e,n;o.oneDS?(e=new o.oneDS.AppInsightsCore,n=new o.oneDS.PostChannel):(e=new i.AppInsightsCore,n=new r.PostChannel);var s={"instrumentationKey":t,"extensions":[n],"extensionConfig":[]};return s.extensionConfig[n.identifier]={"eventsLimitInMem":50},this._args.appInsightsConfig&&(s.extensionConfig=this._args.appInsightsConfig),e.initialize(s,[]),e
+},t}();t.OneDSEventProvider=a;var p=function(){function t(){}return t.prototype.initialize=function(){return!0},t.prototype.post=function(){},t}();t.EmptyEventProvider=p}(i||(i={})),e.EventApi=i.EventApi,e.OneDSEventProvider=i.OneDSEventProvider,e.EmptyEventProvider=i.EmptyEventProvider},function(t,e,n){var i;!function(t){var e=n(1),i=n(2),r=i.EventApi,o=i.EmptyEventProvider,s=i.OneDSEventProvider,a=window,p=n(4),c=function(){function t(t){var e=this;if(this._nonIndexedDataPoint={},this._enabled=!0,this._clientEventsConfig=t||{},this._enabled=this._clientEventsConfig.telemetryEnabled,this._enabled){if(this._eventApi=new r(this._clientEventsConfig.useOneDSEventApi?new s:new o),this._serverPageID=this._clientEventsConfig.hostPageID?this._clientEventsConfig.hostPageID.toString():"",this._serviceID=this._clientEventsConfig.serviceID?this._clientEventsConfig.serviceID.toString():"",this._eventApi.initialize(this._clientEventsConfig),this.addPreSendHandler(function(t){e._setPerRequestDataPoints(t)
+}),this._clientEventsConfig.autoPost){var n=this;setInterval(function(){(n.hasPageEvents()||n._eventApi.hasEvents())&&n.post(!1)},this._clientEventsConfig.flush)}this._addUnloadHandlers()}}return t.prototype.get=function(t,e,n){return void 0===e&&(e="data"),void 0===n&&(n=!1),this._enabled?n?this._eventApi.get(t,e):this._nonIndexedDataPoint[t]:void 0},t.prototype.set=function(t,e,n,i){void 0===n&&(n=!1),this._enabled&&(n?this._eventApi.set(t,e,i):this._nonIndexedDataPoint[t]=e)},t.prototype.append=function(t,e,n){var i;
+void 0===n&&(n=!1),this._enabled&&((i=n?this._eventApi.get(t):this._nonIndexedDataPoint[t])?i instanceof Array||(i=[i]):i=[],i.push(e),n?this._eventApi.set(t,i):this._nonIndexedDataPoint[t]=i)},t.prototype.appendClientEvent=function(t,e){if(this._enabled){this._isNumeric(t)&&(t=this._getNumericValue(t));var n="number"==typeof t?t:a.Telemetry.EClientEvent[t];this.append("ClientEvents",{"ID":n,"EventTime":this._getCurrentTime(),"Value":e})}},t.prototype.addPreSendHandler=function(t,e){this._enabled&&this._eventApi.addPreSendHandler(function(e,n){t(n&&n.isViewTransition,e)
+},e)},t.prototype.post=function(t,e){if(this._enabled){e=e||this._clientEventsConfig.defaultEventName;var n=Object.keys(this._nonIndexedDataPoint).length;(n>0&&t||n>=this._clientEventsConfig.minEvents)&&(this._eventApi.set(p.NonIndexedDataPointKey,JSON.stringify(this._nonIndexedDataPoint)),this._nonIndexedDataPoint={}),this._eventApi.hasEvents()&&this._eventApi.post(e,{"isViewTransition":t})}},t.prototype.postPageView=function(t,e){this._enabled&&(e=e||this._clientEventsConfig.defaultEventName,this.set("ViewID",t,!0),this._eventApi.post(e,!1))
+},t.prototype.applyClientEventBindings=function(t){if(this._enabled){for(var n=this,i=t.querySelectorAll("["+p.ReportEventIdAttr+"]"),r=function(t){var r=i[t];if(r.getAttribute(p.ReportEventHandlerAttachedAttr)){return{"value":void 0}}var o=r.getAttribute(p.ReportEventIdAttr),s=r.getAttribute(p.ReportEventValueAttr),a=r.getAttribute(p.ReportEventTriggerAttr);if(s){if(0===s.indexOf(p.ReportEventValueAttrBinding)){var c=s.slice(p.ReportEventValueAttrBinding.length).trim();s=r.getAttribute(c)}}else{s=n._inferClientEventValue(r)
+}var d=[p.Click,p.Dblclick,p.Keypress,p.Cut,p.Copy,p.Paste,p.Change,p.Focus,p.Scroll,p.Submit,p.Reset],u=a&&a.split(",")||[p.Click];if(u.length>0){for(var l=function(t){-1!==u.indexOf(d[t])&&(e.AddListener(r,d[t],function(){var e;e=d[t],s||(s=e),n.appendClientEvent(o,s)}),r.setAttribute(p.ReportEventHandlerAttachedAttr,"1"))},h=0;h<d.length;h++){l(h)}}},o=0;o<i.length;o++){var s=r(o);if("object"==typeof s){return s.value}}}},t.prototype._getCurrentTime=function(){return Date.now?Date.now():(new Date).getTime()
+},t.prototype.hasPageEvents=function(){return Object.keys(this._nonIndexedDataPoint).length>0},t.prototype._addUnloadHandlers=function(){var t=this,n=function(){t.post(!0)};e.AddListener(a,"beforeunload",n),e.AddListener(a,"unload",n),e.AddListener(a,"pagehide",n),e.AddListener(a.document.body,"beforeunload",n),e.AddListener(a.document.body,"unload",n),e.AddListener(a.document.body,"pagehide",n)},t.prototype._inferClientEventValue=function(t){var e;if(t){switch(t.tagName.toLowerCase()){case p.Input:t instanceof HTMLInputElement?t.type!==p.Radio&&t.type!==p.Checkbox||(e=t.checked?"checked":"unchecked"):t instanceof HTMLButtonElement&&(e=t.type===p.Button?"clicked":t.getAttribute(p.ReportEventIdAttr));
+break;case p.A:t instanceof HTMLAnchorElement&&(e="clicked");break;default:e=t.getAttribute(p.ReportEventIdAttr)}}return e},t.prototype._setPerRequestDataPoints=function(){this.set("ServerPageID",this._serverPageID,!0,"data"),this.set("PageName",this._clientEventsConfig.pageName,!0,"data"),this.set("ServiceID",this._serviceID,!0,"data"),this.set("id",this._clientEventsConfig.appId,!0,"app"),this.set("ver",this._clientEventsConfig.serverDetails.version,!0,"app"),this.set("name",this._clientEventsConfig.defaultEventName,!0,"app"),this.set("sesId",this._getCorrelationID(),!0,"app"),this.set("userId","p: "+this._clientEventsConfig.actorID,!0,"app"),this.set("env",this._clientEventsConfig.environment,!0,"app"),this.set("role",this._getCloudrole(),!0,"cloud"),this.set("roleInstance",this._clientEventsConfig.serverDetails.roleInstance,!0,"cloud"),this.set("roleVer",this._clientEventsConfig.serverDetails.version,!0,"cloud")
+},t.prototype._getCloudrole=function(){return this._clientEventsConfig.serverDetails.datacenter||"-"},t.prototype._getCorrelationID=function(){var t=this._clientEventsConfig.correlationID;return t||(t=e.GenerateGUID(),this._clientEventsConfig.correlationID=t),t},t.prototype._isNumeric=function(t){return!isNaN(t)},t.prototype._getNumericValue=function(t){return Number(t)},t}();t.TelemetryHelper=c}(i||(i={})),e.TelemetryHelper=i.TelemetryHelper},function(t){t.exports={"ReportEventIdAttr":"data-report-event","ReportEventValueAttr":"data-report-value","ReportEventTriggerAttr":"data-report-trigger","ReportEventValueAttrBinding":"attr:","RreportEventHandlerAttachedAttr":"data-report-attached","NonIndexedDataPointKey":"Data","Click":"click","Dblclick":"dblclick","Keypress":"keypress","Cut":"cut","Copy":"copy","Paste":"paste","Change":"change","Focus":"focus","Scroll":"scroll","Submit":"submit","Reset":"reset","Input":"input","A":"a","Radio":"radio","Checkbox":"checkbox","Button":"button"}
+}])}),function(){function t(){var t=i.serverDetails.ver.v,e=Array.isArray(t)&&t.length>0?t.join("."):"-";return e}function e(t,e){for(var n in t){if(t.hasOwnProperty(n)&&t[n]===e){return n}}return e?e.toString():""}var n=window,i=n.$Config||{},r=i.clientEvents||{},o=i.uaid;if("performance"in window==!1&&(window.performance={}),Date.now=Date.now||function(){return(new Date).getTime()},"now"in window.performance==!1){var s=Date.now();window.performance.timing&&window.performance.timing.navigationStart&&(s=window.performance.timing.navigationStart),window.performance.now=function(){return Date.now()-s
+}}if(!o&&"function"==typeof URLSearchParams){var a=new URLSearchParams(window.location.search);o=a.get("uaid")}r.correlationID=o,r.hostPageID=i.hpgid,r.pageName=e(i.cpgids,i.hpgid),r.actorID=i.cid,r.appId=i.appId,r.environment=i.isINT?"int":"prod",r.serverDetails={"datacenter":i.serverDetails.dc,"roleInstance":i.serverDetails.ri,"version":t()},n.$Telemetry=new Microsoft.Identity.UX.Telemetry.TelemetryHelper(r),$Do.register("$Telemetry")}();
+
+//]]></script>
+
+    
+    
+    
+<script type="text/javascript"> var Key="e=10001;m=abef72b26a0f2555ad7e7f8b3f4972878235c2df6ea147e58f062a176964eb6dda829756960fdec18fbcabb9cf4d57493ef885093f4bd1a846a63bdebdeefd20eebe71d9f5eb6f8ddb8e9ee7c9de12c6f6963f8486a3434ce0289eeaf5fea94ae1474e13ebcd03d0b7ffdb353b9db4abdda91240bb03e5110282743a9bfe993e578b49b0adde478b3caf7d8a0c7b0355ff8ef106018cedcccfde2db51bca63af10bbb30ce1168d5efdb5e84b01b02c2ffe4d5b6b6c67e1ea54be792a887fc41a866591bfe7afab22c80db20d50d6515dcaa6b039ca3c06dbc623817340d429f43e7a079858f4b863990074051e7d7109be2f1f194114b25537d63ec630b4d789"; var randomNum="87DE6E60B9E5329ECA11E98826BFC656E7DA7A767A1C92AE58FD6B88A122C03E62CE83288B4D09E1C279A73636E6814AA1CAF6F79D99B9CE67A10064F489C6FCC74A8D701205A6CE084B128BB7C3265BA737143E20D82A2198A4090157D4A4BAC8F9662C"; var SKI="4B8F32B06B3633468A617C4D5781E6B301099447";</script>
+
+
+
+    
+    <div style="display: none" id="PageId">
+        i6209</div>
+
+    
+    <script type="text/javascript">//<![CDATA[
+!function(t){var e;!function(t){var e;!function(t){var e;!function(t){function e(t,e){return t?e&&e.length>6&&("data:"===e.substr(0,5).toLowerCase()||"http:"===e.substr(0,5).toLowerCase()||"https:"===e.substr(0,6).toLowerCase())?e:t+e:e}t.getImagePath=e}(e=t.ImageHelper||(t.ImageHelper={}))}(e=t.Util||(t.Util={}))}(e=t.Account||(t.Account={}))}(wLive||(wLive={})),function(t){var e;!function(t){var e;!function(t){var e;!function(t){function e(t,e){var r=$PageHelper.get(document.body),a=r.css("backgroundColor").toLowerCase().replace(new RegExp(" ","g"),"");
+return!e.forBlackBackground||"rgb(0,0,0)"!==a&&"#000000"!==a&&"#000"!==a?!e.forWhiteBackground||"rgb(255,255,255)"!==a&&"#ffffff"!==a&&"#fff"!==a?t:e.forWhiteBackground:e.forBlackBackground}function r(t,e){return t?e&&e.length>6&&("data:"===e.substr(0,5).toLowerCase()||"http:"===e.substr(0,5).toLowerCase()||"https:"===e.substr(0,6).toLowerCase())?e:t+e:e}function a(t,a,o){return r(t,e(a,o))}t.getHighContrastImage=e,t.getImagePath=r,t.getHighContrastImageUrl=a}(e=t.HighContrast||(t.HighContrast={}))}(e=t.Util||(t.Util={}))
+}(e=t.Account||(t.Account={}))}(wLive||(wLive={})),$Do&&$Do.when(["doc.ready","jQuery"],0,function(){function t(){var t=$PageHelper.byId("bannerBackButton");if(t.length>0&&t.on("click",function(){a&&a.$&&a.$.triggerHandler(a.back)}),o&&c){var e=$PageHelper.byClassName("logo"),r=n.getImagePath(c.baseUrl,c.msLogo),g=n.getImagePath(c.baseUrl,c.msLogoWhite),s=o.getHighContrastImage(r,{"forBlackBackground":g});e.length>0&&s&&s!==r&&e.attr("src",s);var u=$PageHelper.byId("backArrowImage"),f=i.isRTL,l=f?c.rightArrow:c.leftArrow,h=f?c.rightArrowWhite:c.leftArrowWhite,w=n.getImagePath(c.baseUrl,l),m=n.getImagePath(c.baseUrl,h),b=o.getHighContrastImage(w,{"forBlackBackground":m});
+u.length>0&&b&&b!==w&&u.attr("src",b)}}var e=window,r=e&&e.wLive&&e.wLive.Account,a=r&&r.PageEvents,o=r&&r.Util&&r.Util.HighContrast,n=r&&r.Util&&r.Util.ImageHelper,g=e&&e.$Config&&e.$Config.WLXAccount,i=g&&g.convergedFrameConfig&&g.convergedFrameConfig.page,c=i&&i.imgs;t()});
+
+//]]></script>
+    
+    <script type="text/javascript">
+         
+            $Do.when("AttachDfpIframe", 0, function ()
+            {
+                $Do.when("doc.load", wLive.Account.Page.AttachDfpIframe);
+            });
+        
+            $Do.when("Account.Page.Signup", 0, function ()
+            {
+                $PageHelper.onLoad(wLive.Account.Page.Signup);
+            });
+        
+    </script>
+
+    
+
+    <script type="text/javascript">
+        $Do.when("jQuery", 0, function ()
+        {
+            $PageHelper.onLoad(evt_master_onload);
+        });
+    </script>
+
+    
+
+    <script type="text/javascript">//<![CDATA[
+addEventListener("load",function(){setTimeout(function(){!window.scrollY&&window.scrollTo&&scrollTo(0,1)},0)},!1),window.jQuery&&jQuery(window).bind("orientationchange",function(){window.pageYOffset<200&&window.scrollTo(0,1)});
+
+//]]></script>
+
+    
+    
+    <script type="text/javascript">
+        if (window.addEventListener)
+        {
+            window.addEventListener("load", function ()
+            {
+                $Utility.firePageLoadEvent("Account_SignupPage");
+            }, false);
+        }
+    </script>
+    
+<script  type="text/javascript">
+//<![CDATA[
+(function () {
+var $NonBlockingResources={"res":[{"src":"https\u003a\u002f\u002facctcdn.msauth.net\u002fdatarequestpackage_h-_7C7UzwdefXJT9njDBTQ2.js"}]};window.$Do&&window.$Do.register("$NonBlockingResources",0,true);
+!function(n,o){function e(){for(var e=new n.$Loader,r=o.res,i=0;i<r.length;i++){var t=r[i];t&&e.Add(t.src,t.id,t.integrity)}e.Load()}o&&o.res&&0!=o.res.length&&$Do.when("doc.load",function(){setTimeout(e,10)})}(window,$NonBlockingResources);
+
+
+})();
+//]]></script>
+
+    
+<script  type="text/javascript">
+//<![CDATA[
+(function () {
+var $Prefetch={"rfPre":1,"delay":7500,"maxHistory":4,"maxAge":43200,"ageRes":1440,"name":"clrc","fetch":[{"path":"\u002fResources\u002fimages\u002fmicrosoft_logo_7lyNn7YkjJOP0NwZNw6QvQ2.svg","hash":"d7PFy\u002f1V","co":1,"rf":1},{"path":"\u002fResources\u002fimages\u002ffavicon.ico","hash":"\u002bVC\u002bx0R6","co":1,"rf":1},{"path":"\u002fResources\u002fimages\u002f2_vD0yppaJX3jBnfbHF1hqXQ2.svg","hash":"FutSZdvn","co":1,"rf":1}],"mode":0,"useSameSite":1};window.$Do&&window.$Do.register("$Prefetch",0,true);
+!function(e,t,n){function r(e){X.appendLog&&X.appendLog("Client Prefetch: "+e)}function i(){try{for(var e=t.cookie.split(";"),r=0;r<e.length;r++){var i=e[r];if(i){var o=i.indexOf("=");if(-1!==o){var u=i.substr(0,o).trim();if(u===n.name){var a=i.substr(o+1);return JSON.parse(c(a))}}}}}catch(f){}return{}}function o(e,t,n){return e.replace(t,n)}function c(e){return e=o(e,/%5c/g,"\\"),e=o(e,/%3e/g,">"),e=o(e,/%3d/g,"="),e=o(e,/%3c/g,"<"),e=o(e,/%3b/g,";"),e=o(e,/%3a/g,":"),e=o(e,/%2c/g,","),e=o(e,/%27/g,"'"),e=o(e,/%22/g,'"'),e=o(e,/%20/g," "),e=o(e,/%25/g,"%")
+}function u(e){return e=o(e,/%/g,"%25"),e=o(e,/ /g,"%20"),e=o(e,/"/g,"%22"),e=o(e,/'/g,"%27"),e=o(e,/,/g,"%2c"),e=o(e,/:/g,"%3a"),e=o(e,/;/g,"%3b"),e=o(e,/</g,"%3c"),e=o(e,/=/g,"%3d"),e=o(e,/>/g,"%3e"),e=o(e,/\\/g,"%5c")}function a(e,r){var i=new Date;i.setTime(i.getTime()+k*C);var o=n.name+"="+u(JSON.stringify(e))+";expires="+i.toUTCString()+";path=/;secure";o+=r&&"none"!==r.toLowerCase()?";SameSite="+r:f(),t.cookie=o}function f(){return N?";SameSite=None":""}function h(e,t){if(e){if(e.indexOf){return e.indexOf(t)
+}for(var n=0;n<e.length;n++){if(e[n]===t){return n}}}return-1}function g(e,t){return-1!==h(e,t)}function s(e,t){var n=h(e,t);return-1!==n?(e.splice(n,1),!0):!1}function l(e,t){for(var n in e){if(e.hasOwnProperty(n)&&!t(n,e[n])){break}}}function d(){var e=(new Date).getTime(),t=D*C;return Math.round(L.getTime()>e?e/t:(e-L.getTime())/t)}function p(e,t){var n=!1;if(t&&t.length>0){n=!0;for(var r=0;r<t.length;r++){delete e[t[r]]}}return n}function v(e){var t=d()-k,n=t+2*k,r=null,i=0,o=[];return l(e,function(c){return t>c||c>n?o.push(c):(0===e[c].length?o.push(c):(null===r||r>c)&&(r=c),i++),!0
+}),null!==r&&i>P&&o.push(r),p(e,o)}function m(e,t,n){r("Fetched: "+e+" Hash: "+t+" isRefresh: "+n);var o=i(),c=d(),u=!1,f=!1;if(l(o,function(e,n){return g(n,t)?(e!==c?s(o[e],t)&&(f=!0):u=!0,!1):!0}),!u){var h=o[c]||[];h.push(t),o[c]=h,f=!0}f|=v(o),f&&a(o),b()}function T(t,n,i,o){var c={"method":"GET"};i&&(c.mode="cors"),e.fetch(t,c).then(function(e){200===e.status?m(t,n,o):(r("Unexpected response - "+e.status),b())}).then(null,function(e){r("Failed - "+e),b()})}function S(){if(e.XMLHttpRequest&&!A){return new XMLHttpRequest
+}if(e.ActiveXObject){try{return new ActiveXObject("Msxml2.XMLHTTP")}catch(t){}try{return new ActiveXObject("Microsoft.XMLHttp")}catch(t){}}return null}function w(e,t,n,i,o){r("Fetching - "+t),e.onload=function(){m(t,n,o)},e.onerror=function(){r("XHR failed!"),b()},e.ontimeout=function(){r("XHR timed out!"),b()};try{e.open("GET",t),e.withCredentials=i&&!$,e.send()}catch(c){$?setTimeout(function(){m(t,n,o)},0):($=!0,w(e,t,n,!1,o))}}function O(t,n,i,o){if(e.fetch){return void T(t,n,i,o)}var c=S();return null!==c?void w(c,t,n,i,o):void r("Unable to identify a transport option!")
+}function b(){var e=n.fetch;if(H<e.length&&e[H]){var t=e[H];O(t.path,t.hash,t.co||!1,t.rf||!1),H++}}function y(e){if(e){try{var n=t.createElement("link");n.rel="prefetch",n.href=e,t.head.appendChild(n)}catch(r){}}}function x(){r("Starting"),b(),b()}function M(){for(var t=e.$Config||e.ServerData||{},r=n.fetch,i=n.mode||-1,o=-1,c=0;c<r.length;c++){0!==o&&i>=3&&(o=r[c].rf?1:0),J&&!A&&y(r[c].path||{})}t.prefetchPltMode=o}if(n&&n.fetch&&0!==n.fetch.length){var X=e.$Debug||{},H=0,C=6e4,L=new Date(2019),P=n.maxHistory||4,k=n.maxAge||20160,D=n.ageRes||1440,R=n.delay||5e3,J=n.rfPre||!1,N=n.useSameSite||!1,A=void 0!==(e._phantom||e.callPhantom),$=!1;
+JSON&&JSON.parse&&(n.clearCookie=function(){t.cookie=n.name+"=; expires=Thu, 01 Jan 1970 00:00:01 GMT;secure"+f()},e.$Do.when("doc.load",function(){setTimeout(x,R),setTimeout(M,0)}))}}(window,document,$Prefetch);
+
+
+})();
+//]]></script>
+
+    </body>
+  
+</html>
